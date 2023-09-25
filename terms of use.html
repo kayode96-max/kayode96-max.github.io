@@ -1,0 +1,445 @@
+<div style="width: 100%; height: 100%; position: relative; background: #FDFDFD">
+    <style>
+        .dropdown {
+        position: relative;
+        display: inline-block;
+        }
+        .products {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        }
+        .dropdown:hover .products {display: block;}
+        </style>
+    <div style="width: 1366px; height: 148px; left: 0px; top: 0px; position: absolute; background: #FDFDFD"></div>
+    <div style="width: 166.62px; height: 64px; left: 100px; top: 42px; position: absolute">
+        <svg width="167" height="64" viewBox="0 0 167 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Layer_x0020_1">
+            <g id="_1810477661536">
+            <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M24.7089 13.9312C28.1481 13.9312 31.4285 14.6532 34.4106 15.9542C35.9305 14.34 36.864 12.1539 36.864 9.74705C36.864 9.65488 36.862 9.5627 36.8594 9.47114H43.7482C43.7462 13.278 42.406 16.7671 40.178 19.4823C41.3597 20.4488 42.4524 21.523 43.4418 22.6895C46.3408 25.5397 48.1429 29.5291 48.1429 33.9454C48.1429 42.6074 41.2125 49.6292 32.6628 49.6292C24.1134 49.6292 17.1831 42.6074 17.1831 33.9454C17.1831 31.0661 17.949 28.3681 19.2848 26.0492C20.5057 23.9311 22.1084 22.2058 23.9863 20.9214C14.5138 21.3088 6.88317 29.2773 6.88317 38.9658V38.9661C6.88317 48.8991 14.9046 57.0261 24.7086 57.0261H33.6214H42.5344H49.4176V64H24.7089C11.1186 64 0 52.735 0 38.9658C0 25.1962 11.1186 13.9312 24.7089 13.9312ZM40.3038 0C38.4091 0 36.8594 1.57017 36.8594 3.48981C36.8594 5.40945 38.4091 6.97962 40.3038 6.97962C42.1985 6.97962 43.7482 5.40945 43.7482 3.48981C43.7482 1.57017 42.1985 0 40.3038 0ZM32.3824 25.2362C37.2846 25.2362 41.2587 29.2627 41.2587 34.2295C41.2587 39.1963 37.2846 43.2227 32.3824 43.2227C27.4803 43.2227 23.5061 39.1963 23.5061 34.2295C23.5061 29.2627 27.4803 25.2362 32.3824 25.2362Z" fill="url(#paint0_linear_182_1566)"/>
+            <path id="Vector_2" d="M72.1099 54.1309C69.7326 54.1309 67.7059 53.7094 66.03 52.8663C64.3539 52.0233 62.9869 50.9275 61.929 49.5786C60.8711 48.2298 60.0926 46.7665 59.5934 45.1889C59.0941 43.6111 58.8445 42.0757 58.8445 40.5823V39.7875C58.8445 38.1737 59.1 36.566 59.6112 34.9642C60.1223 33.3625 60.9127 31.9112 61.9825 30.6106C63.0524 29.3099 64.4074 28.2681 66.0477 27.4854C67.6881 26.7026 69.6494 26.3112 71.9316 26.3112C74.2613 26.3112 76.3058 26.7447 78.065 27.6119C79.8242 28.479 81.2268 29.6832 82.2729 31.2247C83.3189 32.7663 83.9488 34.5728 84.1628 36.6442H79.0634C78.7782 34.8377 77.9878 33.4588 76.6921 32.5074C75.3965 31.556 73.8097 31.0803 71.9316 31.0803C70.1961 31.0803 68.74 31.4717 67.5633 32.2544C66.3865 33.0373 65.495 34.1152 64.8888 35.4881C64.2826 36.861 63.9795 38.4386 63.9795 40.2211C63.9795 41.9552 64.2886 43.5088 64.9066 44.8818C65.5247 46.2547 66.44 47.3445 67.6524 48.1515C68.8648 48.9584 70.3506 49.3618 72.1099 49.3618C74.0593 49.3618 75.7056 48.8741 77.0487 47.8985C78.3919 46.923 79.2061 45.5562 79.4914 43.7979H84.5907C84.3529 45.7007 83.717 47.4349 82.6829 49.0005C81.6488 50.5661 80.2461 51.8126 78.4751 52.7399C76.704 53.6673 74.5822 54.1309 72.1099 54.1309ZM93.3218 53.9502C91.1822 53.9502 89.4764 53.3963 88.2047 52.2883C86.9328 51.1803 86.2969 49.6268 86.2969 47.6276C86.2969 45.4839 87.0636 43.9003 88.5969 42.8766C90.1302 41.8528 92.1925 41.341 94.7838 41.341H98.742V41.1604C98.742 38.9204 97.6247 37.8004 95.3901 37.8004C94.7957 37.8004 94.0826 37.8124 93.2504 37.8365C92.4184 37.8606 91.5804 37.8907 90.7365 37.9268C89.8926 37.9629 89.1377 38.0051 88.4721 38.0533V33.79C89.2804 33.7177 90.2491 33.6575 91.3784 33.6094C92.5076 33.5612 93.5476 33.537 94.4986 33.537C97.4702 33.537 99.7108 34.1452 101.22 35.3616C102.73 36.578 103.485 38.5471 103.485 41.2688V53.4444H99.5622V49.687C98.6826 52.5291 96.6025 53.9502 93.3218 53.9502ZM94.7125 50.3735C95.3781 50.3735 96.0081 50.247 96.6025 49.9941C97.1968 49.7411 97.69 49.3077 98.0823 48.6934C98.4746 48.0792 98.6945 47.2422 98.742 46.1824V44.3398H94.7125C93.5714 44.3398 92.6977 44.6228 92.0916 45.1889C91.4853 45.7548 91.1822 46.4834 91.1822 47.3747C91.1822 48.2899 91.4853 49.0185 92.0916 49.5606C92.6977 50.1025 93.5714 50.3735 94.7125 50.3735ZM108.151 53.4444V33.8261H112.073V40.2211C112.596 35.7892 114.902 33.5732 118.991 33.5732H119.704V37.9449H118.349C116.661 37.9449 115.366 38.4025 114.462 39.3178C113.559 40.2331 113.107 41.5338 113.107 43.2198V53.4444H108.151ZM130.254 54.0948C128.447 54.0948 126.843 53.6552 125.44 52.7761C124.037 51.8969 122.938 50.6986 122.142 49.1811C121.345 47.6637 120.947 45.9536 120.947 44.0508V43.2921C120.947 41.4133 121.327 39.7152 122.088 38.1978C122.849 36.6803 123.913 35.47 125.28 34.5667C126.647 33.6636 128.257 33.2119 130.111 33.2119C131.49 33.2119 132.732 33.4949 133.838 34.0609C134.943 34.627 135.853 35.476 136.566 36.6081V27.0699H141.522V53.4444H137.6V49.3257C136.934 50.9154 135.954 52.1076 134.658 52.9025C133.362 53.6973 131.894 54.0948 130.254 54.0948ZM131.36 49.8676C132.334 49.8676 133.226 49.6449 134.034 49.1992C134.842 48.7536 135.49 48.1093 135.977 47.2663C136.465 46.4233 136.708 45.4116 136.708 44.2314V42.7863C136.708 41.6542 136.453 40.6908 135.942 39.8959C135.431 39.1011 134.771 38.4929 133.963 38.0714C133.154 37.6499 132.287 37.439 131.36 37.439C129.743 37.439 128.43 38.0111 127.419 39.1552C126.409 40.2994 125.904 41.8107 125.904 43.6895C125.904 45.5682 126.415 47.0676 127.437 48.1876C128.459 49.3077 129.767 49.8676 131.36 49.8676ZM146.509 53.4444V33.8261H150.432V40.2211C150.955 35.7892 153.261 33.5732 157.35 33.5732H158.063V37.9449H156.708C155.02 37.9449 153.725 38.4025 152.821 39.3178C151.918 40.2331 151.466 41.5338 151.466 43.2198V53.4444H146.509ZM163.478 31.4777C162.503 31.4777 161.784 31.2188 161.32 30.7009C160.857 30.1831 160.625 29.5267 160.625 28.7319C160.625 27.937 160.857 27.2866 161.32 26.7808C161.784 26.2751 162.503 26.0222 163.478 26.0222C164.429 26.0222 165.136 26.2751 165.6 26.7808C166.063 27.2866 166.295 27.937 166.295 28.7319C166.295 29.5267 166.063 30.1831 165.6 30.7009C165.136 31.2188 164.429 31.4777 163.478 31.4777ZM161.659 53.4444V37.5836H158.949V33.8261H166.616V53.4444H161.659Z" fill="#1F1F1F"/>
+            </g>
+            </g>
+            <defs>
+            <linearGradient id="paint0_linear_182_1566" x1="5.11502" y1="32.7312" x2="58.5272" y2="33.6805" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4705AF"/>
+            <stop offset="1" stop-color="#A382D7"/>
+            </linearGradient>
+            </defs>
+        </svg>
+    </div>
+    <div style="width: 438px; left: 464px; top: 230px; position: absolute; text-align: center; color: #4A4E50; font-size: 16px; font-family: Sora; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Updated 12/07/2022</div>
+    <div style="width: 506px; left: 430px; top: 1404px; position: absolute; text-align: center; color: #4A4E50; font-size: 16px; font-family: Sora; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Cardri is a Digital Wallet with completely unique features. Our goal is to create financial opportunities & innovations for the 1 billion+ people in Africa.<br/></div>
+    <div style="width: 620px; left: 373px; top: 164px; position: absolute; text-align: center; color: #201F50; font-size: 40px; font-family: Sora; font-weight: 700; letter-spacing: 0.25px; word-wrap: break-word">Terms of Use</div>
+    <div style="width: 620px; left: 373px; top: 1338px; position: absolute; text-align: center; color: #201F50; font-size: 40px; font-family: Sora; font-weight: 700; letter-spacing: 0.25px; word-wrap: break-word">Download the Mobile App</div>
+    <div style="width: 120px; height: 50px; left: 1002px; top: 49px; position: absolute">
+        <div style="width: 120px; height: 50px; left: 0px; top: 0px; position: absolute; background: #F5F5FF; border-radius: 8px"></div>
+        <div style="left: 39px; top: 16px; position: absolute; text-align: center; color: #4705AF; font-size: 14px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Login</div>
+    </div>
+    <div style="width: 120px; height: 50px; left: 1146px; top: 49px; position: absolute">
+        <div style="width: 120px; height: 50px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 8px"></div>
+        <div style="left: 31px; top: 16px; position: absolute; text-align: center; color: white; font-size: 14px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Sign Up</div>
+    </div>
+    <div style="width: 1086px; height: 960px; left: 140px; top: 314px; position: absolute">
+        <div style="width: 320px; left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 700; letter-spacing: 0.50px; word-wrap: break-word">Lorem ipsum dolor sit amet</div>
+        <div style="width: 320px; left: 0px; top: 246px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 700; letter-spacing: 0.50px; word-wrap: break-word">2.Lorem ipsum dolor sit amet</div>
+        <div style="width: 320px; left: 0px; top: 492px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 700; letter-spacing: 0.50px; word-wrap: break-word">3. Lorem ipsum dolor sit amet</div>
+        <div style="width: 320px; left: 0px; top: 738px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 700; letter-spacing: 0.50px; word-wrap: break-word">4. Lorem ipsum dolor sit amet</div>
+        <div style="width: 1086px; left: 0px; top: 35px; position: absolute; opacity: 0.50; color: #4A4E50; font-size: 14px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.</div>
+        <div style="width: 1086px; left: 0px; top: 281px; position: absolute; opacity: 0.50; color: #4A4E50; font-size: 14px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.</div>
+        <div style="width: 1086px; left: 0px; top: 527px; position: absolute; opacity: 0.50; color: #4A4E50; font-size: 14px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.</div>
+        <div style="width: 1086px; left: 0px; top: 773px; position: absolute; opacity: 0.50; color: #4A4E50; font-size: 14px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget ornare quam vel facilisis feugiat amet sagittis arcu, tortor. Sapien, consequat ultrices morbi orci semper sit nulla. Leo auctor ut etiam est, amet aliquet ut vivamus. Odio vulputate est id tincidunt fames.</div>
+    </div>
+    <div style="width: 302.32px; height: 48px; left: 532px; top: 1508px; position: absolute">
+        <img style="width: 143.28px; height: 48px; left: 159.04px; top: 0px; position: absolute" src="play.png" />
+        <img style="width: 142.93px; height: 48px; left: 0px; top: 0px; position: absolute" src="app.png"/>
+    </div>
+    <!--footer-->
+        <div style="width: 1366px; height: 470px; left: 0px; top: 1636px; position: absolute; background: #201F50"></div>
+        <div style="width: 1162px; height: 20px; left: 102px; top: 1946px; position: absolute; border-bottom: 1px white solid"></div>
+        <div style="width: 651px; left: 357px; top: 2013px; position: absolute; text-align: center; color: white; font-size: 14px; font-family: Sora; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">© 2023 Cardri Technologies Inc. All Rights Reserved</div>
+        <div style="width: 276px; height: 196px; left: 100px; top: 1700px; position: absolute">
+            <svg width="167" height="64" viewBox="0 0 167 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="Layer_x0020_1">
+                <g id="_1810477661536">
+                    <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M24.7089 13.9312C28.1481 13.9312 31.4285 14.6532 34.4106 15.9542C35.9305 14.34 36.864 12.1539 36.864 9.74705C36.864 9.65488 36.862 9.5627 36.8594 9.47114H43.7482C43.7462 13.278 42.406 16.7671 40.178 19.4823C41.3597 20.4488 42.4524 21.523 43.4418 22.6895C46.3408 25.5397 48.1429 29.5291 48.1429 33.9454C48.1429 42.6074 41.2125 49.6292 32.6628 49.6292C24.1134 49.6292 17.1831 42.6074 17.1831 33.9454C17.1831 31.0661 17.949 28.3681 19.2848 26.0492C20.5057 23.9311 22.1084 22.2058 23.9863 20.9214C14.5138 21.3088 6.88317 29.2773 6.88317 38.9658V38.9661C6.88317 48.8991 14.9046 57.0261 24.7086 57.0261H33.6214H42.5344H49.4176V64H24.7089C11.1186 64 0 52.735 0 38.9658C0 25.1962 11.1186 13.9312 24.7089 13.9312ZM40.3038 0C38.4091 0 36.8594 1.57017 36.8594 3.48981C36.8594 5.40945 38.4091 6.97962 40.3038 6.97962C42.1985 6.97962 43.7482 5.40945 43.7482 3.48981C43.7482 1.57017 42.1985 0 40.3038 0ZM32.3824 25.2362C37.2846 25.2362 41.2587 29.2627 41.2587 34.2295C41.2587 39.1963 37.2846 43.2227 32.3824 43.2227C27.4803 43.2227 23.5061 39.1963 23.5061 34.2295C23.5061 29.2627 27.4803 25.2362 32.3824 25.2362Z" fill="url(#paint0_linear_139_576)"/>
+                    <path id="Vector_2" d="M72.1099 54.1312C69.7326 54.1312 67.7059 53.7097 66.03 52.8666C64.3539 52.0236 62.9869 50.9278 61.929 49.5789C60.8711 48.2301 60.0926 46.7668 59.5934 45.1892C59.0941 43.6115 58.8445 42.076 58.8445 40.5826V39.7878C58.8445 38.174 59.1 36.5663 59.6112 34.9645C60.1223 33.3628 60.9127 31.9115 61.9825 30.6109C63.0524 29.3102 64.4074 28.2685 66.0477 27.4857C67.6881 26.7029 69.6494 26.3115 71.9316 26.3115C74.2613 26.3115 76.3058 26.745 78.065 27.6122C79.8242 28.4793 81.2268 29.6835 82.2729 31.225C83.3189 32.7666 83.9488 34.5731 84.1628 36.6445H79.0634C78.7782 34.838 77.9878 33.4591 76.6921 32.5077C75.3965 31.5563 73.8097 31.0806 71.9316 31.0806C70.1961 31.0806 68.74 31.472 67.5633 32.2547C66.3865 33.0376 65.495 34.1155 64.8888 35.4884C64.2826 36.8613 63.9795 38.4389 63.9795 40.2214C63.9795 41.9556 64.2886 43.5091 64.9066 44.8821C65.5247 46.255 66.44 47.3448 67.6524 48.1518C68.8648 48.9587 70.3506 49.3621 72.1099 49.3621C74.0593 49.3621 75.7056 48.8744 77.0487 47.8988C78.3919 46.9234 79.2061 45.5565 79.4914 43.7982H84.5907C84.3529 45.701 83.717 47.4352 82.6829 49.0009C81.6488 50.5664 80.2461 51.8129 78.4751 52.7402C76.704 53.6676 74.5822 54.1312 72.1099 54.1312ZM93.3218 53.9505C91.1822 53.9505 89.4764 53.3966 88.2047 52.2886C86.9328 51.1806 86.2969 49.6271 86.2969 47.6279C86.2969 45.4842 87.0636 43.9006 88.5969 42.8769C90.1302 41.8531 92.1925 41.3413 94.7838 41.3413H98.742V41.1608C98.742 38.9207 97.6247 37.8007 95.3901 37.8007C94.7957 37.8007 94.0826 37.8127 93.2504 37.8368C92.4184 37.8609 91.5804 37.891 90.7365 37.9271C89.8926 37.9632 89.1377 38.0054 88.4721 38.0536V33.7903C89.2804 33.718 90.2491 33.6578 91.3784 33.6097C92.5076 33.5615 93.5476 33.5373 94.4986 33.5373C97.4702 33.5373 99.7108 34.1455 101.22 35.3619C102.73 36.5783 103.485 38.5474 103.485 41.2691V53.4447H99.5622V49.6873C98.6826 52.5294 96.6025 53.9505 93.3218 53.9505ZM94.7125 50.3738C95.3781 50.3738 96.0081 50.2473 96.6025 49.9944C97.1968 49.7414 97.69 49.308 98.0823 48.6937C98.4746 48.0795 98.6945 47.2425 98.742 46.1827V44.3401H94.7125C93.5714 44.3401 92.6977 44.6231 92.0916 45.1892C91.4853 45.7551 91.1822 46.4837 91.1822 47.375C91.1822 48.2902 91.4853 49.0189 92.0916 49.5609C92.6977 50.1028 93.5714 50.3738 94.7125 50.3738ZM108.151 53.4447V33.8264H112.073V40.2214C112.596 35.7895 114.902 33.5735 118.991 33.5735H119.704V37.9452H118.349C116.661 37.9452 115.366 38.4028 114.462 39.3181C113.559 40.2334 113.107 41.5341 113.107 43.2201V53.4447H108.151ZM130.254 54.0951C128.447 54.0951 126.843 53.6555 125.44 52.7764C124.037 51.8972 122.938 50.6989 122.142 49.1814C121.345 47.664 120.947 45.9539 120.947 44.0511V43.2924C120.947 41.4136 121.327 39.7155 122.088 38.1981C122.849 36.6806 123.913 35.4703 125.28 34.567C126.647 33.6639 128.257 33.2122 130.111 33.2122C131.49 33.2122 132.732 33.4952 133.838 34.0612C134.943 34.6273 135.853 35.4763 136.566 36.6084V27.0702H141.522V53.4447H137.6V49.326C136.934 50.9157 135.954 52.1079 134.658 52.9028C133.362 53.6976 131.894 54.0951 130.254 54.0951ZM131.36 49.8679C132.334 49.8679 133.226 49.6452 134.034 49.1995C134.842 48.7539 135.49 48.1096 135.977 47.2666C136.465 46.4236 136.708 45.4119 136.708 44.2317V42.7866C136.708 41.6545 136.453 40.6911 135.942 39.8962C135.431 39.1014 134.771 38.4932 133.963 38.0717C133.154 37.6502 132.287 37.4393 131.36 37.4393C129.743 37.4393 128.43 38.0114 127.419 39.1555C126.409 40.2997 125.904 41.811 125.904 43.6898C125.904 45.5685 126.415 47.0679 127.437 48.1879C128.459 49.308 129.767 49.8679 131.36 49.8679ZM146.509 53.4447V33.8264H150.432V40.2214C150.955 35.7895 153.261 33.5735 157.35 33.5735H158.063V37.9452H156.708C155.02 37.9452 153.725 38.4028 152.821 39.3181C151.918 40.2334 151.466 41.5341 151.466 43.2201V53.4447H146.509ZM163.478 31.478C162.503 31.478 161.784 31.2191 161.32 30.7012C160.857 30.1834 160.625 29.527 160.625 28.7322C160.625 27.9373 160.857 27.2869 161.32 26.7811C161.784 26.2754 162.503 26.0225 163.478 26.0225C164.429 26.0225 165.136 26.2754 165.6 26.7811C166.063 27.2869 166.295 27.9373 166.295 28.7322C166.295 29.527 166.063 30.1834 165.6 30.7012C165.136 31.2191 164.429 31.478 163.478 31.478ZM161.659 53.4447V37.5839H158.949V33.8264H166.616V53.4447H161.659Z" fill="white"/>
+                </g>
+                </g>
+                <defs>
+                <linearGradient id="paint0_linear_139_576" x1="5.11502" y1="32.7312" x2="58.5272" y2="33.6805" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4705AF"/>
+                <stop offset="1" stop-color="#A382D7"/>
+                </linearGradient>
+                </defs>
+            </svg>        
+            <!--div style="width: 166.62px; height: 64px; left: 0px; top: 0px; position: absolute">
+                <div style="width: 49.42px; height: 64px; left: 0px; top: 0px; position: absolute; background: linear-gradient(91deg, #4705AF 0%, #A382D7 100%)"></div>
+                <div style="width: 107.77px; height: 28.11px; left: 58.84px; top: 26.02px; position: absolute; background: white"></div>
+            </div-->
+            <div style="width: 276px; left: 0px; top: 88px; position: absolute; color: white; font-size: 14px; font-family: Sora; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Cardri is a Digital Wallet with completely unique features. Our goal is to create financial opportunities & innovations for the 1 billion+ people in Africa.<br/></div>
+        </div>
+        <div style="width: 200px; height: 200px; left: 440px; top: 1722px; position: absolute">
+            <div style="width: 200px; height: 200px; left: 0px; top: 0px; position: absolute"></div>
+            <div style="left: 0px; top: 0px; position: absolute; color: #929596; font-size: 20px; font-family: Sora; font-weight: 600; text-transform: uppercase; letter-spacing: 0.25px; word-wrap: break-word">Cardri</div>
+            <a href="home.html"><div style="left: 0px; top: 49px; position: absolute; color: white; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Home</div></a>
+            <div style="left: 0px; top: 85px; position: absolute; color: white; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">FAQ</div>
+            <div style="left: 0px; top: 121px; position: absolute; color: white; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Contact Us</div>
+        </div>
+        <div style="width: 200px; height: 200px; left: 648px; top: 1722px; position: absolute">
+            <div style="width: 200px; height: 200px; left: 0px; top: 0px; position: absolute"></div>
+            <div style="left: 0px; top: 0px; position: absolute; color: #929596; font-size: 20px; font-family: Sora; font-weight: 600; text-transform: uppercase; letter-spacing: 0.25px; word-wrap: break-word">PRODUCTS</div>
+            <a href="cardri pay.html"><div style="left: 0px; top: 49px; position: absolute; color: white; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Cardri Pay</div></a>
+            <a href="swap funds.html"><div style="left: 0px; top: 85px; position: absolute; color: white; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Swap Funds</div></a>
+            <a href="bill payments.html"><div style="left: 0px; top: 121px; position: absolute; color: white; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Bill Payment</div></a>
+            <a href="payment link.html"><div style="left: 0px; top: 157px; position: absolute; color: white; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Payment Link</div></a>
+        </div>
+        <div style="width: 200px; height: 200px; left: 856px; top: 1722px; position: absolute">
+            <div style="width: 200px; height: 200px; left: 0px; top: 0px; position: absolute"></div>
+            <div style="left: 0px; top: 0px; position: absolute; color: #929596; font-size: 20px; font-family: Sora; font-weight: 600; text-transform: uppercase; letter-spacing: 0.25px; word-wrap: break-word">Legal</div>
+            <a href="terms of use.html"><div style="left: 0px; top: 49px; position: absolute; color: white; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Terms of Use</div></a>
+            <a href="privacy policy.html"><div style="left: 0px; top: 85px; position: absolute; color: white; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Privacy Policy</div></a>
+        </div>
+        <div style="width: 200px; height: 200px; left: 1064px; top: 1722px; position: absolute">
+            <div style="width: 200px; height: 200px; left: 0px; top: 0px; position: absolute"></div>
+            <div style="left: 0px; top: 0px; position: absolute; color: #929596; font-size: 20px; font-family: Sora; font-weight: 600; text-transform: uppercase; letter-spacing: 0.25px; word-wrap: break-word">Social media</div>
+            <div style="width: 200px; left: 0px; top: 49px; position: absolute; color: white; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Follow us on social media and find out the latest updates and features</div>
+        </div>
+        <!--chat with us-->
+        <div style="width: 230px; height: 64px; left: 1084px; top: 1990px; position: absolute">
+            <div style="width: 64px; height: 64px; left: 166px; top: 0px; position: absolute">
+                <div style="width: 64px; height: 64px; left: 0px; top: 0px; position: absolute; background: linear-gradient(180deg, #4705AF 0%, #7E57FF 100%); box-shadow: 0px 3px 14px 3px rgba(71, 5, 175, 0.12); border-radius: 100px"></div>
+                <div style="width: 24px; height: 24px; left: 20px; top: 20px; position: absolute">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="material-symbols:chat-bubble-rounded">
+                            <path id="Vector" d="M2 20.575V5C2 4.45 2.196 3.979 2.588 3.587C2.97933 3.19567 3.45 3 4 3H20C20.55 3 21.021 3.19567 21.413 3.587C21.8043 3.979 22 4.45 22 5V17C22 17.55 21.8043 18.021 21.413 18.413C21.021 18.8043 20.55 19 20 19H6L3.7 21.3C3.38333 21.6167 3.02067 21.6873 2.612 21.512C2.204 21.3373 2 21.025 2 20.575Z" fill="white"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div style="width: 155px; height: 42px; left: 0px; top: 11px; position: absolute; background: white; box-shadow: -5px 2px 12px 2px rgba(71, 5, 175, 0.06); border-radius: 15px"></div>
+            <div style="left: 16px; top: 23px; position: absolute; color: #4A4E50; font-size: 16px; font-family: Inter; font-weight: 500; letter-spacing: 0.25px; word-wrap: break-word">Chat with us</div>
+            <div style="left: 121px; top: 23px; position: absolute; color: #4705AF; font-size: 18px; font-family: Inter; font-weight: 500; letter-spacing: 0.25px; word-wrap: break-word">👋</div>
+        </div>
+    </div>
+<!--footer end-->
+     <!--nav bar home button-->
+     <div style="width: 559px; height: 24px; left: 399px; top: 62px; position: absolute">
+        <a href="home.html"><div style="left: 0px; top: 2px; position: absolute; color: #4A4E50; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Home</div></a>
+    <!--nav bar company-->
+        <a href="about us.html">
+            <div style="width: 107px; height: 24px; left: 84px; top: 0px; position: absolute">
+                <div style="left: 0px; top: 2px; position: absolute; color: #4A4E50; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Company</div>
+                <!--div style="width: 24px; height: 24px; left: 83px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="chevron-down">
+                            <path id="Vector" d="M6 9L12 15L18 9" stroke="#4A4E50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                    </svg>                        
+                </div-->
+            </div>
+        </a>
+    <!--nav bar products-->
+        <div  class="dropdown" style="width: 103px; height: 24px; left: 221px; top: 0px; position: absolute">
+            <div class="dropdown" style="left: 0px; top: 2px; position: absolute; color: #4A4E50; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Products
+            <div class="dropdown" style="width: 24px; height: 24px; left: 79px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                <button style="background: white;  padding-inline: 0px; padding-block: 0px; border: none">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="chevron-down">
+                            <path id="Vector" d="M6 9L12 15L18 9" stroke="#4A4E50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                    </svg>
+                </button>  
+    <!--drop down code -->
+                <div class="products" style="width: 100%; height: 100%; right: 250px; position: relative">
+                <div style="width: 610px; height: 266px; left: 0px; top: 0px; position: relative; background: white; box-shadow: 0px 3px 14px 3px rgba(71, 5, 175, 0.12); border-radius: 20px"></div>
+                    <a href="cardri pay.html">
+                        <div style="width: 281px; height: 70px; left: 16px; top: 28px; position: absolute">
+                            <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector" d="M10.4 8V5.6H12.8V4L16 6.8L12.8 9.6V8H10.4ZM9.6 2.96V4H0V2.96L4.8 0L9.6 2.96ZM4 4.8H5.6V8.8H4V4.8ZM0.8 4.8H2.4V8.8H0.8V4.8ZM8.8 4.8V6.8L7.2 8.24V4.8H8.8ZM5.68 9.6L5.2 10L6.56 11.2H0V9.6H5.68ZM12 8.8V11.2H9.6V12.8L6.4 10L9.6 7.2V8.8H12Z" fill="white"/>
+                            </svg>
+                        <div style="width: 257px; height: 53px; left: 8px; top: 8px; position: absolute">
+                            <div style="width: 217px; height: 53px; left: 40px; top: 0px; position: absolute">
+                                <div style="left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Send & Receive Money</div>
+                                <div style="width: 217px; left: 0px; top: 27px; position: absolute; color: #4A4E50; font-size: 11px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Send & Receive payment from anyone in the world within a minutes.</div>
+                            </div>
+                            <div style="width: 28px; height: 28px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 9999px"></div>
+                            <div style="width: 16px; height: 12.80px; left: 6px; top: 8px; position: absolute">
+                            <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector" d="M10.4 8V5.6H12.8V4L16 6.8L12.8 9.6V8H10.4ZM9.6 2.96V4H0V2.96L4.8 0L9.6 2.96ZM4 4.8H5.6V8.8H4V4.8ZM0.8 4.8H2.4V8.8H0.8V4.8ZM8.8 4.8V6.8L7.2 8.24V4.8H8.8ZM5.68 9.6L5.2 10L6.56 11.2H0V9.6H5.68ZM12 8.8V11.2H9.6V12.8L6.4 10L9.6 7.2V8.8H12Z" fill="white"/>
+                            </svg>
+                        </div>
+                    </a>
+                    </div>
+                    </div>
+                    <div style="width: 281px; height: 70px; left: 313px; top: 28px; position: absolute">
+                    <div style="width: 281px; height: 70px; left: 0px; top: 0px; position: absolute; background: white"></div>
+                    <a href="p2p.html">
+                        <div style="width: 257px; height: 53px; left: 8px; top: 8px; position: absolute">
+                            <div style="width: 217px; height: 53px; left: 40px; top: 0px; position: absolute">
+                                <div style="left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">P2P Market</div>
+                                <div style="width: 217px; left: 0px; top: 27px; position: absolute; color: #4A4E50; font-size: 11px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Lorem ipsum dolor sit amet, adipiscing consectetur adipiscing elit.</div>
+                            </div>
+                            <div style="width: 28px; height: 28px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 9999px"></div>
+                            <div style="width: 16px; height: 16px; left: 6px; top: 6px; position: absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="simple-icons:marketo">
+                                    <path id="Vector" d="M10.764 0V16L14.8533 12.7427V2.22267L10.764 0ZM8.86201 12.5053L5.56934 13.9433V1.39067L8.86201 2.36533V12.5053ZM1.14734 12.1367L3.66734 11.4707V3.45867L1.15934 3.05467L1.14734 12.1367Z" fill="white"/>
+                                    </g>
+                                </svg>            
+                                <!--div style="width: 13.71px; height: 16px; left: 1.15px; top: 0px; position: absolute; background: white"></div-->
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+                    <div style="width: 281px; height: 70px; left: 16px; top: 98px; position: absolute">
+                    <div style="width: 281px; height: 70px; left: 0px; top: 0px; position: absolute; background: white"></div>
+                    <div style="width: 257px; height: 40px; left: 8px; top: 8px; position: absolute">
+                        <a href="swap funds.html">
+                            <div style="width: 217px; height: 40px; left: 40px; top: 0px; position: absolute">
+                                <div style="left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Swap Fund</div>
+                                <div style="width: 217px; left: 0px; top: 27px; position: absolute; color: #4A4E50; font-size: 11px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Swap fund seamlessly.</div>
+                            </div>
+                            <div style="width: 28px; height: 28px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 9999px"></div>
+                            <div style="width: 16px; height: 16px; left: 6px; top: 6px; position: absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="system-uicons:swap">
+                                    <g id="Group">
+                                    <path id="Vector" d="M9.90479 6.09523H13.7143V2.28571" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path id="Vector_2" d="M13.7143 6.09523C11.5527 3.5558 9.39425 2.28571 7.23806 2.28571C5.08187 2.28571 3.17711 3.04761 1.52377 4.57142M4.95235 8.7619H1.14282V12.5714" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path id="Vector_3" d="M1.14282 8.7619C3.30435 11.3013 5.46282 12.5714 7.61901 12.5714C9.7752 12.5714 11.68 11.8095 13.3333 10.2857" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    </g>
+                                </svg>            
+                                <!--div style="width: 12.57px; height: 10.29px; left: 1.14px; top: 2.29px; position: absolute">
+                                    <div style="width: 3.81px; height: 3.81px; left: 8.76px; top: -0px; position: absolute; border: 1.50px white solid"></div>
+                                    <div style="width: 12.57px; height: 10.29px; left: 0px; top: 0px; position: absolute; border: 1.50px white solid"></div>
+                                    <div style="width: 12.19px; height: 3.81px; left: -0px; top: 6.48px; position: absolute; border: 1.50px white solid"></div>
+                                </div-->
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+                    <div style="width: 281px; height: 70px; left: 313px; top: 98px; position: absolute">
+                    <div style="width: 281px; height: 70px; left: 0px; top: 0px; position: absolute; background: white"></div>
+                    <div style="width: 257px; height: 53px; left: 8px; top: 8px; position: absolute">
+                        <a href="payment link.html">
+                            <div style="width: 217px; height: 53px; left: 40px; top: 0px; position: absolute">
+                                <div style="left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Payment Link</div>
+                                <div style="width: 217px; left: 0px; top: 27px; position: absolute; color: #4A4E50; font-size: 11px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Lorem ipsum dolor sit amet, adipiscing consectetur adipiscing elit.</div>
+                            </div>
+                            <div style="width: 28px; height: 28px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 9999px"></div>
+                            <div style="width: 16px; height: 16px; left: 6px; top: 6px; position: absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="material-symbols:link">
+                                    <path id="Vector" d="M7.33337 11.3334H4.66671C3.74448 11.3334 2.95849 11.0082 2.30871 10.358C1.65849 9.70824 1.33337 8.92224 1.33337 8.00002C1.33337 7.0778 1.65849 6.29158 2.30871 5.64135C2.95849 4.99158 3.74448 4.66669 4.66671 4.66669H7.33337V6.00002H4.66671C4.11115 6.00002 3.63893 6.19446 3.25004 6.58335C2.86115 6.97224 2.66671 7.44446 2.66671 8.00002C2.66671 8.55558 2.86115 9.0278 3.25004 9.41669C3.63893 9.80558 4.11115 10 4.66671 10H7.33337V11.3334ZM5.33337 8.66669V7.33335H10.6667V8.66669H5.33337ZM8.66671 11.3334V10H11.3334C11.8889 10 12.3612 9.80558 12.75 9.41669C13.1389 9.0278 13.3334 8.55558 13.3334 8.00002C13.3334 7.44446 13.1389 6.97224 12.75 6.58335C12.3612 6.19446 11.8889 6.00002 11.3334 6.00002H8.66671V4.66669H11.3334C12.2556 4.66669 13.0418 4.99158 13.692 5.64135C14.3418 6.29158 14.6667 7.0778 14.6667 8.00002C14.6667 8.92224 14.3418 9.70824 13.692 10.358C13.0418 11.0082 12.2556 11.3334 11.3334 11.3334H8.66671Z" fill="white"/>
+                                    </g>
+                                </svg>
+                                <!--div style="width: 13.33px; height: 6.67px; left: 1.33px; top: 4.67px; position: absolute; background: white"></div-->
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+                    <div style="width: 281px; height: 70px; left: 16px; top: 168px; position: absolute">
+                    <div style="width: 281px; height: 70px; left: 0px; top: 0px; position: absolute; background: white"></div>
+                    <div style="width: 257px; height: 53px; left: 8px; top: 8px; position: absolute">
+                        <a href="bill payments.html">
+                            <div style="width: 217px; height: 53px; left: 40px; top: 0px; position: absolute">
+                                <div style="left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Bill Payment</div>
+                                <div style="width: 217px; left: 0px; top: 27px; position: absolute; color: #4A4E50; font-size: 11px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Pay electricity, TV subscription, data and more bills.</div>
+                            </div>
+                            <div style="width: 28px; height: 28px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 9999px"></div>
+                            <div style="width: 16px; height: 16px; left: 6px; top: 6px; position: absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="mingcute:bill-line" clip-path="url(#clip0_233_503)">
+                                    <g id="Group">
+                                    <path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M2.66663 3.33331C2.66663 2.80288 2.87734 2.29417 3.25241 1.9191C3.62749 1.54403 4.13619 1.33331 4.66663 1.33331H11.3333C11.8637 1.33331 12.3724 1.54403 12.7475 1.9191C13.1226 2.29417 13.3333 2.80288 13.3333 3.33331V14C13.3332 14.1255 13.2977 14.2485 13.2308 14.3548C13.1639 14.461 13.0683 14.5462 12.9551 14.6006C12.8419 14.6549 12.7157 14.6762 12.5909 14.6619C12.4662 14.6477 12.348 14.5985 12.25 14.52L11 13.52L9.74996 14.52C9.6219 14.6226 9.4605 14.6743 9.29666 14.6654C9.13282 14.6564 8.97804 14.5873 8.86196 14.4713L7.99996 13.6093L7.13796 14.4713C7.02196 14.5874 6.86723 14.6566 6.70339 14.6657C6.53954 14.6748 6.3781 14.6232 6.24996 14.5206L4.99996 13.52L3.74996 14.52C3.65194 14.5985 3.53375 14.6477 3.409 14.6619C3.28425 14.6762 3.158 14.6549 3.04481 14.6006C2.93161 14.5462 2.83605 14.461 2.76915 14.3548C2.70224 14.2485 2.6667 14.1255 2.66663 14V3.33331ZM4.66663 2.66665C4.48981 2.66665 4.32025 2.73688 4.19522 2.86191C4.0702 2.98693 3.99996 3.1565 3.99996 3.33331V12.6133L4.58329 12.1466C4.70153 12.052 4.84849 12.0004 4.99996 12.0004C5.15143 12.0004 5.29838 12.052 5.41663 12.1466L6.61663 13.1066L7.52863 12.1953C7.65364 12.0703 7.82318 12.0001 7.99996 12.0001C8.17674 12.0001 8.34627 12.0703 8.47129 12.1953L9.38263 13.1066L10.5833 12.1466C10.7015 12.052 10.8485 12.0004 11 12.0004C11.1514 12.0004 11.2984 12.052 11.4166 12.1466L12 12.6133V3.33331C12 3.1565 11.9297 2.98693 11.8047 2.86191C11.6797 2.73688 11.5101 2.66665 11.3333 2.66665H4.66663ZM5.33329 5.99998C5.33329 5.82317 5.40353 5.6536 5.52855 5.52857C5.65358 5.40355 5.82315 5.33331 5.99996 5.33331H9.99996C10.1768 5.33331 10.3463 5.40355 10.4714 5.52857C10.5964 5.6536 10.6666 5.82317 10.6666 5.99998C10.6666 6.17679 10.5964 6.34636 10.4714 6.47138C10.3463 6.59641 10.1768 6.66665 9.99996 6.66665H5.99996C5.82315 6.66665 5.65358 6.59641 5.52855 6.47138C5.40353 6.34636 5.33329 6.17679 5.33329 5.99998ZM5.99996 7.99998C5.82315 7.99998 5.65358 8.07022 5.52855 8.19524C5.40353 8.32027 5.33329 8.48983 5.33329 8.66665C5.33329 8.84346 5.40353 9.01303 5.52855 9.13805C5.65358 9.26307 5.82315 9.33331 5.99996 9.33331H7.99996C8.17677 9.33331 8.34634 9.26307 8.47136 9.13805C8.59639 9.01303 8.66663 8.84346 8.66663 8.66665C8.66663 8.48983 8.59639 8.32027 8.47136 8.19524C8.34634 8.07022 8.17677 7.99998 7.99996 7.99998H5.99996Z" fill="white"/>
+                                    </g>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_233_503">
+                                    <rect width="16" height="16" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                                <!--div style="width: 16px; height: 16px; left: 0px; top: 0px; position: absolute">
+                                    <div style="width: 16px; height: 16px; left: 0px; top: 0px; position: absolute"></div>
+                                    <div style="width: 10.67px; height: 13.33px; left: 2.67px; top: 1.33px; position: absolute; background: white"></div>
+                                </div-->
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+                    <div style="width: 281px; height: 70px; left: 313px; top: 168px; position: absolute">
+                    <div style="width: 281px; height: 70px; left: 0px; top: 0px; position: absolute; background: white"></div>
+                    <div style="width: 257px; height: 53px; left: 8px; top: 8px; position: absolute">
+                        <a href="card.html">
+                            <div style="width: 217px; height: 53px; left: 40px; top: 0px; position: absolute">
+                                <div style="left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Virtual Cards</div>
+                                <div style="width: 217px; left: 0px; top: 27px; position: absolute; color: #4A4E50; font-size: 11px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Get virtual Naira and Dollar card in seconds.</div>
+                            </div>
+                            <div style="width: 28px; height: 28px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 9999px"></div>
+                            <div style="width: 16px; height: 16px; left: 6px; top: 6px; position: absolute">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="uil:atm-card">
+                                    <path id="Vector" d="M4.66671 9.99998H6.66671C6.84352 9.99998 7.01309 9.92974 7.13811 9.80472C7.26314 9.67969 7.33337 9.51012 7.33337 9.33331C7.33337 9.1565 7.26314 8.98693 7.13811 8.86191C7.01309 8.73688 6.84352 8.66665 6.66671 8.66665H4.66671C4.4899 8.66665 4.32033 8.73688 4.1953 8.86191C4.07028 8.98693 4.00004 9.1565 4.00004 9.33331C4.00004 9.51012 4.07028 9.67969 4.1953 9.80472C4.32033 9.92974 4.4899 9.99998 4.66671 9.99998ZM12.6667 3.33331H3.33337C2.80294 3.33331 2.29423 3.54403 1.91916 3.9191C1.54409 4.29417 1.33337 4.80288 1.33337 5.33331V11.3333C1.33337 11.8637 1.54409 12.3725 1.91916 12.7475C2.29423 13.1226 2.80294 13.3333 3.33337 13.3333H12.6667C13.1971 13.3333 13.7058 13.1226 14.0809 12.7475C14.456 12.3725 14.6667 11.8637 14.6667 11.3333V5.33331C14.6667 4.80288 14.456 4.29417 14.0809 3.9191C13.7058 3.54403 13.1971 3.33331 12.6667 3.33331ZM13.3334 11.3333C13.3334 11.5101 13.2631 11.6797 13.1381 11.8047C13.0131 11.9297 12.8435 12 12.6667 12H3.33337C3.15656 12 2.98699 11.9297 2.86197 11.8047C2.73695 11.6797 2.66671 11.5101 2.66671 11.3333V7.33331H13.3334V11.3333ZM13.3334 5.99998H2.66671V5.33331C2.66671 5.1565 2.73695 4.98693 2.86197 4.86191C2.98699 4.73688 3.15656 4.66665 3.33337 4.66665H12.6667C12.8435 4.66665 13.0131 4.73688 13.1381 4.86191C13.2631 4.98693 13.3334 5.1565 13.3334 5.33331V5.99998Z" fill="white"/>
+                                    </g>
+                                </svg>
+                                <!--div style="width: 13.33px; height: 10px; left: 1.33px; top: 3.33px; position: absolute; background: white"></div-->
+                            </div>
+                        </a>
+                    </div>
+                    </div>
+                    </div>
+    <!-- lets see how it goes-->                      
+            </div>
+            </div>
+        </div>
+    <!--nav bar legal-->
+        <div class="dropdown" style="width: 71px; height: 24px; left: 358px; top: 0px; position: absolute">
+            <div class="dropdown" style="left: 0px; top: 2px; position: relative; color: #4A4E50; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Legal</div>
+            <div class="dropdown" style="width: 24px; height: 24px; left: 79px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                <button style="background: white; position: relative; border: none; padding-inline: 0px; padding-block: 0px;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="chevron-down">
+                            <path id="Vector" d="M6 9L12 15L18 9" stroke="#4A4E50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                    </svg>
+                </button>
+            <div style="width: 100%; height: 100%; right: 250px; position: relative">
+                <div class="products" style="width: 313px; height: 266px; left: 0px; top: 0px; position: absolute; background: white; box-shadow: 0px 3px 14px 3px rgba(71, 5, 175, 0.12); border-radius: 20px">
+                    <div style="width: 281px; height: 70px; left: 16px; top: 28px; position: absolute">
+                        <div style="width: 281px; height: 70px; left: 0px; top: 0px; position: absolute; background: white"></div>
+                        <a href="terms of use.html">
+                            <div style="width: 257px; height: 53px; left: 8px; top: 8px; position: absolute">
+                                <div style="width: 217px; height: 53px; left: 40px; top: 0px; position: absolute">
+                                    <div style="left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Terms of Use</div>
+                                    <div style="width: 217px; left: 0px; top: 27px; position: absolute; color: #4A4E50; font-size: 11px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Send & Receive payment from anyone in the world within a minutes.</div>
+                                </div>
+                                <div style="width: 28px; height: 28px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 9999px"></div>
+                                <div style="width: 18px; height: 18px; left: 5px; top: 5px; position: absolute">
+                                    <div style="width: 12px; height: 15px; left: 0px; top: 0px; position: absolute">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="icon-park-outline:agreement">
+                                            <g id="Group">
+                                                <path id="Vector" d="M14.25 1.5H3.75C3.33579 1.5 3 1.83579 3 2.25V15.75C3 16.1642 3.33579 16.5 3.75 16.5H14.25C14.6642 16.5 15 16.1642 15 15.75V2.25C15 1.83579 14.6642 1.5 14.25 1.5Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path id="Vector_2" d="M6 1.5H9.375V7.5L7.6875 6L6 7.5V1.5Z" stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path id="Vector_3" d="M6 10.5H9.75M6 12.75H12" stroke="white" stroke-width="1.2" stroke-linecap="round"/>
+                                            </g>
+                                            </g>
+                                        </svg>                                
+                                        <!--div style="width: 12px; height: 15px; left: 0px; top: 0px; position: absolute; border: 1.20px white solid"></div>
+                                        <div style="width: 3.38px; height: 6px; left: 3px; top: 0px; position: absolute; border: 1.20px white solid"></div>
+                                        <div style="width: 6px; height: 2.25px; left: 3px; top: 9px; position: absolute; border: 1.20px white solid"></div-->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                        <a href="privacy policy.html">
+                            <div style="width: 281px; height: 70px; left: 16px; top: 98px; position: absolute">
+                                <div style="width: 281px; height: 70px; left: 0px; top: 0px; position: absolute; background: white"></div>
+                                <div style="width: 257px; height: 40px; left: 8px; top: 8px; position: absolute">
+                                    <div style="width: 217px; height: 40px; left: 40px; top: 0px; position: absolute">
+                                        <div style="left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Privacy Policy</div>
+                                        <div style="width: 217px; left: 0px; top: 27px; position: absolute; color: #4A4E50; font-size: 11px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Swap fund seamlessly.</div>
+                                    </div>
+                                    <div style="width: 28px; height: 28px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 9999px"></div>
+                                    <div style="width: 18px; height: 18px; left: 5px; top: 5px; position: absolute">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="ic:outline-privacy-tip">
+                                                <path id="Vector" d="M9 2.3925L14.25 4.725V8.25C14.25 11.64 12.015 14.7675 9 15.6975C5.985 14.7675 3.75 11.64 3.75 8.25V4.725L9 2.3925ZM9 0.75L2.25 3.75V8.25C2.25 12.4125 5.13 16.305 9 17.25C12.87 16.305 15.75 12.4125 15.75 8.25V3.75L9 0.75ZM8.25 5.25H9.75V6.75H8.25V5.25ZM8.25 8.25H9.75V12.75H8.25V8.25Z" fill="white"/>
+                                            </g>
+                                        </svg>
+                                        <!--div style="width: 13.50px; height: 16.50px; left: 2.25px; top: 0.75px; position: absolute; background: white"></div-->
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--nav bar support-->
+    <div style="width: 281px; height: 70px; left: 16px; top: 168px; position: absolute; background: white"></div>
+            <div class="dropdown" style="width: 96px; height: 24px; left: 463px; top: 0px; position: absolute">
+                <div class="dropdown" style="left: 0px; top: 2px; position: absolute; color: #4A4E50; font-size: 16px; font-family: Sora; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Support
+                <div class="dropdown" style="width: 24px; height: 24px; left: 79px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                    <button style="background: white;  padding-inline: 0px; padding-block: 0px; border: none">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="chevron-down">
+                                <path id="Vector" d="M6 9L12 15L18 9" stroke="#4A4E50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </button>
+                <div style="width: 100%; height: 100%; right: 250px; position: relative">
+                    <div class="products" style="width: 313px; height: 266px; left: 0px; top: 0px; position: absolute; background: white; box-shadow: 0px 3px 14px 3px rgba(71, 5, 175, 0.12); border-radius: 20px">
+                        <div style="width: 281px; height: 70px; left: 16px; top: 28px; position: absolute">
+                            <div style="width: 281px; height: 70px; left: 0px; top: 0px; position: absolute; background: white"></div>
+                            <div style="width: 257px; height: 40px; left: 8px; top: 8px; position: absolute">
+                                <div style="width: 217px; height: 40px; left: 40px; top: 0px; position: absolute">
+                                    <div style="left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Contact Us</div>
+                                    <div style="width: 217px; left: 0px; top: 27px; position: absolute; color: #4A4E50; font-size: 11px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">How can we help? Get in touch, please.</div>
+                                </div>
+                                <div style="width: 28px; height: 28px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 9999px"></div>
+                                <div style="width: 18px; height: 18px; padding-top: 5.25px; padding-bottom: 4.94px; padding-left: 2.25px; padding-right: 2.25px; left: 2px; top: 1px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g id="ic:baseline-call-missed-outgoing">
+                                            <path id="Vector" d="M2.25 6.3075L9 13.0575L14.25 7.8075V11.25H15.75V5.25H9.75V6.75H13.1925L9 10.9425L3.3075 5.25L2.25 6.3075Z" fill="white"/>
+                                        </g>
+                                    </svg>                                
+                                    <!--div style="width: 13.50px; height: 7.81px; background: white"></div-->
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 281px; height: 70px; left: 16px; top: 98px; position: absolute">
+                            <div style="width: 281px; height: 70px; left: 0px; top: 0px; position: absolute; background: white"></div>
+                            <div style="width: 257px; height: 53px; left: 8px; top: 8px; position: absolute">
+                                <div style="width: 217px; height: 53px; left: 40px; top: 0px; position: absolute">
+                                    <div style="left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">Quick Help</div>
+                                    <div style="width: 217px; left: 0px; top: 27px; position: absolute; color: #4A4E50; font-size: 11px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Get quick response to all your questions and inquiry about Cardri.</div>
+                                </div>
+                                <div style="width: 28px; height: 28px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 9999px"></div>
+                                <div style="width: 18px; height: 18px; left: 5px; top: 5px; position: absolute">
+                                    <div style="width: 15px; height: 14.25px; left: 0px; top: 0px; position: absolute">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="iconoir:headset-help">
+                                            <g id="Group">
+                                            <path id="Vector" d="M15 8.25C15 6.6587 14.3679 5.13258 13.2426 4.00736C12.1174 2.88214 10.5913 2.25 9 2.25C7.4087 2.25 5.88258 2.88214 4.75736 4.00736C3.63214 5.13258 3 6.6587 3 8.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path id="Vector_2" d="M15 13.5V13.875C15 14.2728 14.842 14.6544 14.5607 14.9357C14.2794 15.217 13.8978 15.375 13.5 15.375H10.875M1.5 11.5785V10.1715C1.50005 9.83701 1.6119 9.51213 1.81778 9.2485C2.02365 8.98487 2.31174 8.79761 2.63625 8.7165L3.94125 8.3895C4.00756 8.37298 4.07676 8.37179 4.14361 8.386C4.21045 8.40022 4.27318 8.42947 4.32703 8.47154C4.38088 8.51361 4.42445 8.56739 4.45442 8.62881C4.48439 8.69023 4.49998 8.75766 4.5 8.826V12.9232C4.50012 12.9917 4.4846 13.0593 4.45464 13.1209C4.42468 13.1825 4.38105 13.2364 4.3271 13.2786C4.27314 13.3208 4.21026 13.3501 4.14327 13.3643C4.07627 13.3784 4.00692 13.3772 3.9405 13.3605L2.6355 13.0342C2.31113 12.953 2.02321 12.7657 1.81748 12.5021C1.61175 12.2384 1.50001 11.9136 1.5 11.5792V11.5785ZM16.5 11.5785V10.1715C16.4999 9.83701 16.3881 9.51213 16.1822 9.2485C15.9763 8.98487 15.6883 8.79761 15.3638 8.7165L14.0588 8.3895C13.9924 8.37298 13.9232 8.37179 13.8564 8.386C13.7895 8.40022 13.7268 8.42947 13.673 8.47154C13.6191 8.51361 13.5756 8.56739 13.5456 8.62881C13.5156 8.69023 13.5 8.75766 13.5 8.826V12.9232C13.4999 12.9916 13.5154 13.0592 13.5453 13.1207C13.5753 13.1822 13.6188 13.2361 13.6727 13.2782C13.7265 13.3204 13.7893 13.3497 13.8562 13.364C13.9231 13.3782 13.9924 13.377 14.0588 13.3605L15.3638 13.0342C15.6883 12.9531 15.9763 12.7659 16.1822 12.5023C16.3881 12.2386 16.4999 11.9137 16.5 11.5792V11.5785Z" stroke="white" stroke-width="1.5"/>
+                                            <path id="Vector_3" d="M10.125 16.5H7.875C7.57663 16.5 7.29048 16.3815 7.0795 16.1705C6.86853 15.9595 6.75 15.6734 6.75 15.375C6.75 15.0766 6.86853 14.7905 7.0795 14.5795C7.29048 14.3685 7.57663 14.25 7.875 14.25H10.125C10.4234 14.25 10.7095 14.3685 10.9205 14.5795C11.1315 14.7905 11.25 15.0766 11.25 15.375C11.25 15.6734 11.1315 15.9595 10.9205 16.1705C10.7095 16.3815 10.4234 16.5 10.125 16.5Z" stroke="white" stroke-width="1.5"/>
+                                            </g>
+                                            </g>
+                                        </svg>                                    
+                                        <!--div style="width: 12px; height: 6px; left: 1.50px; top: 0px; position: absolute; border: 1.50px white solid"></div>
+                                        <div style="width: 15px; height: 7px; left: 0px; top: 6.13px; position: absolute; border: 1.50px white solid"></div>
+                                        <div style="width: 4.50px; height: 2.25px; left: 5.25px; top: 12px; position: absolute; border: 1.50px white solid"></div-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="width: 281px; height: 70px; left: 16px; top: 168px; position: absolute">
+                            <div style="width: 281px; height: 70px; left: 0px; top: 0px; position: absolute; background: white"></div>
+                            <div style="width: 257px; height: 40px; left: 8px; top: 8px; position: absolute">
+                                <div style="width: 217px; height: 40px; left: 40px; top: 0px; position: absolute">
+                                    <div style="left: 0px; top: 0px; position: absolute; color: #202020; font-size: 16px; font-family: Inter; font-weight: 600; letter-spacing: 0.25px; word-wrap: break-word">FAQ</div>
+                                    <div style="width: 217px; left: 0px; top: 27px; position: absolute; color: #4A4E50; font-size: 11px; font-family: Inter; font-weight: 400; letter-spacing: 0.25px; word-wrap: break-word">Frequently asked questions.</div>
+                                </div>
+                                <div style="width: 28px; height: 28px; left: 0px; top: 0px; position: absolute; background: #4705AF; border-radius: 9999px"></div>
+                                <div style="width: 18px; height: 18px; left: 5px; top: 5px; position: absolute">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g id="material-symbols:contact-support-outline-sharp">
+                                            <path id="Vector" d="M9 16.5L8.8125 14.25H8.625C6.85 14.25 5.34375 13.6312 4.10625 12.3937C2.86875 11.1562 2.25 9.65 2.25 7.875C2.25 6.1 2.86875 4.59375 4.10625 3.35625C5.34375 2.11875 6.85 1.5 8.625 1.5C9.5125 1.5 10.3405 1.6655 11.109 1.9965C11.878 2.328 12.5533 2.78425 13.1348 3.36525C13.7158 3.94675 14.1718 4.62175 14.5028 5.39025C14.8342 6.15925 15 6.9875 15 7.875C15 8.8125 14.847 9.7125 14.541 10.575C14.2345 11.4375 13.8157 12.2375 13.2847 12.975C12.7532 13.7125 12.122 14.3813 11.391 14.9813C10.6595 15.5813 9.8625 16.0875 9 16.5ZM10.5 13.7625C11.3875 13.0125 12.1092 12.1345 12.6652 11.1285C13.2217 10.122 13.5 9.0375 13.5 7.875C13.5 6.5125 13.0283 5.35925 12.0848 4.41525C11.1408 3.47175 9.9875 3 8.625 3C7.2625 3 6.1095 3.47175 5.166 4.41525C4.222 5.35925 3.75 6.5125 3.75 7.875C3.75 9.2375 4.222 10.3907 5.166 11.3348C6.1095 12.2782 7.2625 12.75 8.625 12.75H10.5V13.7625ZM8.60625 11.9813C8.81875 11.9813 9 11.9062 9.15 11.7563C9.3 11.6062 9.375 11.425 9.375 11.2125C9.375 11 9.3 10.8188 9.15 10.6688C9 10.5188 8.81875 10.4438 8.60625 10.4438C8.39375 10.4438 8.2125 10.5188 8.0625 10.6688C7.9125 10.8188 7.8375 11 7.8375 11.2125C7.8375 11.425 7.9125 11.6062 8.0625 11.7563C8.2125 11.9062 8.39375 11.9812 8.60625 11.9813ZM8.0625 9.6H9.1875C9.1875 9.225 9.225 8.9625 9.3 8.8125C9.375 8.6625 9.6125 8.3875 10.0125 7.9875C10.2375 7.7625 10.425 7.51875 10.575 7.25625C10.725 6.99375 10.8 6.7125 10.8 6.4125C10.8 5.775 10.5845 5.29675 10.1535 4.97775C9.722 4.65925 9.2125 4.5 8.625 4.5C8.075 4.5 7.6125 4.653 7.2375 4.959C6.8625 5.2655 6.6 5.6375 6.45 6.075L7.5 6.4875C7.5625 6.275 7.68125 6.0655 7.85625 5.859C8.03125 5.653 8.2875 5.55 8.625 5.55C8.9625 5.55 9.21575 5.64375 9.38475 5.83125C9.55325 6.01875 9.6375 6.225 9.6375 6.45C9.6375 6.6625 9.575 6.853 9.45 7.0215C9.325 7.1905 9.175 7.3625 9 7.5375C8.5625 7.9125 8.297 8.20925 8.2035 8.42775C8.1095 8.64675 8.0625 9.0375 8.0625 9.6Z" fill="white"/>
+                                        </g>
+                                    </svg>                                
+                                    <!--div style="width: 12.75px; height: 15px; left: 2.25px; top: 1.50px; position: absolute; background: white"></div-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
