@@ -1,0 +1,350 @@
+* {
+     box-sizing: border-box;
+     
+}
+.body{
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    
+
+}
+
+.page1{
+    height:16%;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 4.7% 7.32%;
+    overflow-x: hidden;
+    width: 100%;
+    height: 16.59%;
+    margin: 0px;
+    justify-content: space-between;
+    background-color: #fdfdfd;
+
+  
+}
+
+
+.logo{
+    display: flex;
+    width: 12.22%;
+    height: 7.71%;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.header_navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.22%;
+    width: 40.92%;
+    margin-left: 9.68%;
+    align-items: center;
+    gap: 5.49%;
+    margin-right: 4.50%;
+        
+
+}
+@media only screen and (max-width: 920px) {
+        
+    .header_navbar{
+        display: none;
+    }
+
+  }
+.header_navbar_home{
+    color: #4A4E50;
+    font-size: 1em;
+    font-family: Sora;
+    font-weight: 600;
+    letter-spacing: 0.018%;
+    word-wrap: break-word;
+    padding: 2px;
+}
+
+.header_navbar_company{
+    color: #4A4E50;
+    font-size: 1em;
+    font-family: Sora;
+    font-weight: 600;
+    letter-spacing: 0.018%;
+    word-wrap: break-word;
+    padding: 2px;
+}
+
+.header_navbar a{
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.header_navbar_products{
+    display: inline-flex;
+    color: #4A4E50;
+    font-size: 1em;
+    font-family: Sora;
+    font-weight: 600;
+    letter-spacing: 0.018%;
+    word-wrap: break-word;
+    padding: 2px;
+
+
+}
+
+.dropdown_content{
+    display: none;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-content: space-around;
+    background-color:white;
+    height: 266px;
+    width: 610px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 14px 3px rgba(71, 5, 175, 0.12);
+    position: absolute;
+    z-index: 1;
+    padding: 10px 10px;
+    margin-top: 25px;
+    float: left;
+    left: 33%;
+    overflow-y: visible;
+}
+
+.pay{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 0;
+    display: flex;
+    text-wrap: wrap;
+    width: 281px;
+    align-content: space-around;
+    width: 281px;
+    height: 70px;
+}
+
+.header_navbar_products:hover{
+    cursor: pointer;
+}
+
+.header_navbar_products:hover .dropdown_content{
+    display: flex;
+}
+
+.header_navbar_legal{
+    display: inline-flex;
+    color: #4A4E50;
+    font-size: 1em;
+    font-family: Sora;
+    font-weight: 600;
+    letter-spacing: 0.018%;
+    word-wrap: break-word;
+    padding: 2px;
+}
+
+.header_navbar_support{
+    display: inline-flex;
+    color: #4A4E50;
+    font-size: 1em;
+    font-family: Sora;
+    font-weight: 600;
+    letter-spacing: 0.018%;
+    word-wrap: break-word;
+    padding: 2px;
+    
+}
+
+
+.header_buttons{
+    display: inline-flex;
+    gap: 9.09%;
+}
+
+.header_buttons_login {
+    padding: 10.8% 25.83%;
+    border-radius: 8px;
+    background-color: #F5F5FF;
+    color: #4705AF;
+    font-size: 14px;
+    font-family: Sora;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.header_buttons_signup {
+    padding: 10.8% 25.83%;
+    border-radius: 8px;
+    background-color: #4705AF;
+    color: #F5F5FF;
+    font-size: 14px;
+    font-family: Sora;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+    word-wrap: break-word;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.main{
+    display: flex;
+    padding: 5.27% 0% 3.0% 7.32%;
+    width: 100%;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.main_text1{
+    color: #201F50; 
+    font-size: 3em; 
+    font-family: Sora; 
+    font-weight: 700; 
+    letter-spacing: 0.25px; 
+    word-wrap: break-word;
+    margin-top: 12.56%;
+    padding-right: 40%;
+
+}
+
+@media only screen and (max-width: 770px) {
+        
+    .main_text1{
+        font-size: 2.5em;
+    }
+
+  }
+.main_text2{
+    color: #4A4E50; 
+    font-size: 1em;
+    font-family: Sora; 
+    font-weight: 400; 
+    letter-spacing: 0.25px; 
+    word-wrap: break-word;
+    margin-top: 5.38%;
+    padding-right: 40%;
+}
+
+
+@media only screen and (max-width: 580px) {
+        
+    .main_text1{
+        font-size: 1.5em;
+    }
+    .main_text2{
+        font-size: 0.8em;
+    }
+  }
+
+.main_images{
+    display: flex;
+    gap: 1.61%;
+
+    margin-right: 5.53%;
+}
+
+.main_map{
+    width: 13.76%;
+    height: 20.18%;
+    margin-top: 12.56%;
+}
+
+.main_app{
+    height: 90.13%;
+    width: 27.25%;
+    margin-right: 5.53%;
+}
+
+.main_download{
+    margin-top: 6.50%;
+    display: flex;
+    gap: 1.17%;
+}
+
+.main_appstore{
+    height: 48px;
+    width: 120px;
+}
+
+.main_playstore{
+    width: 120px;
+    height:48px;
+} 
+
+.main2{
+    padding: 6.46% 8.82% 0% 7.32%;
+    display: flex;
+    justify-content: space-between;
+    gap: 8.42%;
+    height: 12.61%;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+.main2_text1{
+        color: #201F50; 
+        font-size: 48px; 
+        font-family: Sora; 
+        font-weight: 700; 
+        letter-spacing: 0.25px; 
+        word-wrap: break-word;
+        margin-top: 4.42%;
+
+}
+
+.main2_text2{
+    color: #4A4E50; 
+    font-size: 16px; 
+    font-family: Sora; 
+    font-weight: 400; 
+    letter-spacing: 0.25px; 
+    word-wrap: break-word;
+    margin-top: 5.78%;
+}
+
+.main2_text3{
+    display: flex;
+    color: #4705AF; 
+    font-size: 16px; 
+    font-family: Sora; 
+    font-weight: 600; 
+    letter-spacing: 0.25px; 
+    word-wrap: break-word;
+    margin-top: 7.14%;
+    align-items: center;
+    gap: 1%;
+
+
+}
+
+.main2_text4{
+    color: #4A4E50; 
+    font-size: 16px; 
+    font-family: Sora; 
+    font-weight: 600; 
+    letter-spacing: 0.25px; 
+    word-wrap: break-word;
+    margin-top: 7.14%;
+}
+
+.main2_flags{
+    display: flex;
+    gap: 1.17%;
+    margin-top: 4.08%;
+    border-radius: 8px;
+    overflow: hidden;
+}
