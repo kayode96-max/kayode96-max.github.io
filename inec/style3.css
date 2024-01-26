@@ -106,9 +106,33 @@ body{
     align-items: center;
     color: #455C7D;
 }
+#pendingbutton{
+    color: #238F53;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.pendline{
+    color: #238F53;
+    border: 1px solid #238F53;
+    border-radius: 4px;
+}
+
+.activebutton{
+    color: #238F53;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.activeline{
+    color: #238F53;
+    border: 1px solid #238F53;
+    border-radius: 4px;
+}
+
 .maincontsearch{
     display: flex;
-    gap: 16px;
+    gap: 8px;
 }
 .mainuserdetails{
     display: flex;

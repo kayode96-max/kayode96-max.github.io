@@ -9,7 +9,6 @@ body{
 #mainbody001{
     margin: 0;
     display: flex;
-    height: 100vh;
     width: 100%;
 }
 .leftnavbar{
@@ -89,12 +88,14 @@ body{
     background: #F5F6F7;
     height: 100%;
     display: flex;
+
+    flex-shrink: 1;
 }
 .content_list{
     padding: 48px 32px 21px 48px;
-    display: block;
-    
-    width: 413px;
+    display: flex;
+    flex-direction: column;
+    max-width: 336px;
 }
 .content_list_1{
     font-family: Avenir;
@@ -296,7 +297,9 @@ body{
 .filter_input:hover .dropdown-content {
     display: flex;
 }
-
+.filter_input2:hover .dropdown-content {
+    display: flex;
+}
 .dropdown-content22{
     display: none;
  
@@ -357,17 +360,17 @@ body{
     line-height: 160%;
     cursor: pointer;
 }
-.search-box{
-    content: "";
-    background-image: url(svg/Search.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    right: 8px;
-    width: 16px;
-    height:18px;
-    border: 0;
-    background-color: #F5F6F7;
 
+.maincontsearch{
+    padding: 8px;
+    border: 1px solid #C9D9E5;
+    border-radius: 8px;
+    display: flex;
+    gap: 8px;
+}
+.search-box{
+    outline: none;
+    border: none;
 }
 .search_text{
     color: #455C7D;

@@ -79,6 +79,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 10%;
+    padding-right: 10px;
 }
 .fstname{
     display: flex;
@@ -110,7 +111,6 @@
     justify-content: center;
     width: 100%;
     text-wrap: wrap;
-    margin-left: 16%;
     color: #161F2E;
     font-family: Avenir;
     font-size: 16px;
@@ -148,6 +148,7 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 160%;
+    padding-right: 10px;
         
 }
 .show{
