@@ -164,6 +164,9 @@
     
 
 }
+.settingsheader span{
+    cursor: pointer;
+}
 .setnewppwordss{
     border: 0;
 }

@@ -363,34 +363,46 @@
     <script>
         const profile = document.querySelector('.setprofile')
         const alerts = document.querySelector('.setalerts')
+        const sos = document.querySelector('.setsos')
         const profileContent = document.querySelector('.setcontents')
         const alertsContent = document.querySelector('.setalertscontents')
+        const sosContent = document.querySelector('.setsoscontent')
         const profileLine = document.querySelector('.profileline')
         const alertsLine = document.querySelector('.alertsline')
+        const sosLine = document.querySelector('.sosline')
 
         function profilePage(){
             profileContent.style.display = "flex"
             alertsContent.style.display ="none"
+            sosContent.style.display ="none"
             profile.style.color = "#238F53"
             alerts.style.color = '#455C7D'
+            sos.style.color = '#455C7D'
             profileLine.style.borderColor = '#238F53'
             alertsLine.style.borderColor = '#F5F6F7'
+            sosLine.style.borderColor = '#F5F6F7'
         }
         function alertsPage(){
             profileContent.style.display = "none"
             alertsContent.style.display ="flex"
+            sosContent.style.display ="none"
             profile.style.color = "#455C7D"
             alerts.style.color = '#238F53'
+            sos.style.color = '#455C7D'
             profileLine.style.borderColor = '#F5F6F7'
             alertsLine.style.borderColor = '#238F53'
+            sosLine.style.borderColor = '#F5F6F7'
         }
         function sosPage(){
             profileContent.style.display = "none"
             alertsContent.style.display ="none"
+            sosContent.style.display = "flex"
             profile.style.color = "#455C7D"
             alerts.style.color = '#455C7D'
-            profileLine.style.borderColor = '#F5F6F&'
+            sos.style.color = '#238F53'
+            profileLine.style.borderColor = '#F5F6F7'
             alertsLine.style.borderColor = '#F5F6F7'
+            sosLine.style.borderColor = '#238F53'
         }
     </script>
 </body>
