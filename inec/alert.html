@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Alerts</title>
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="alert.css">
@@ -157,14 +157,9 @@
                                 <div class="dropdown">
                                     <div class="dropdown-content">
                                         <div class="signup">
-                                            <div class="search">
-                                               <div class="searchCont">
-                                                <div class="search_icon"><input type="search" name="search" class="search-box"
-                                                    placeholder="SEARCH STATE">
-                                                </div>
-                                               </div>
-                                                
-                                            </div>
+                                           <div class="maincontsearch">
+                                <img src="svg/Search.svg" alt="" class="searchingicon"><input type="search" name="search" class="search-box" id="searchbox" placeholder="SEARCH">
+                        </div>
                                             <div class="states121">
                                                 <div>abia State</div>
                                                 <div>adamawa State</div>
@@ -283,13 +278,8 @@
                                 <div class="dropdown">
                                     <div class="dropdown-content">
                                         <div class="signup">
-                                            <div class="search">
-                                               <div class="searchCont">
-                                                <div class="search_icon"><input type="search" name="search" class="search-box"
-                                                    placeholder="SEARCH STATE">
-                                                </div>
-                                               </div>
-                                                
+                                            <div class="maincontsearch">
+                                                <img src="svg/Search.svg" alt="" class="searchingicon"><input type="search" name="search" class="search-box" id="searchbox" placeholder="SEARCH STATE">
                                             </div>
                                             <div class="states121">
                                                 <div class="Abia" onclick="populateLocalGov(this)">abia State</div>
@@ -344,13 +334,8 @@
                                 <div class="dropdown">
                                     <div class="dropdown-content">
                                         <div class="signup">
-                                            <div class="search">
-                                               <div class="searchCont">
-                                                <div class="search_icon"><input type="search" name="search" class="search-box"
-                                                    placeholder="SEARCH STATE">
-                                                </div>
-                                               </div>
-                                                
+                                           <div class="maincontsearch">
+                                                <img src="svg/Search.svg" alt="" class="searchingicon"><input type="search" name="search" class="search-box" id="searchbox" placeholder="SEARCH LGA" >
                                             </div>
                                             <div class="states121" id="localGov"></div>
                                         </div>
@@ -366,12 +351,11 @@
                 <div class="ummaincont">
                     <div class="mainconthead">
                         <div class="mainconttext">
-                            <div class="">Pending</div>
+                            <div class="" id="pendingbutton"><span>Pending</span><div class="pendline"></div></div>
                             <div class="">Resolved</div>
                         </div>
                         <div class="maincontsearch">
-                                <div class="mainsearch_icon"><input type="search" name="search" class="search-box" placeholder=""></div>
-                                <div class="mainsearchtext">Search</div>
+                                <img src="svg/Search.svg" alt="" class="searchingicon"><input type="search" name="search" class="search-box" id="searchbox" placeholder="SEARCH">
                         </div>
                     </div>
                     <div class="mainuserdetails">

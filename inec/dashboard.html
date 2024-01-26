@@ -144,20 +144,15 @@
                 <div class="content_body_mainHead">
                     <div class="content_body_mainText">Filter by:</div>
                     <div class="mainHead_buttons">
-                        <div class="filter_input">
+                        <div class="filter_input" >
                             <div class="input_text" id="statesBar">State</div>
                             <div class="input_button">
                                 <img src="svg/Right Icon.svg" alt="dropdown" class="dropdown">
                                 <div class="dropdown">
-                                    <div class="dropdown-content">
+                                    <div class="dropdown-content" id="statesfil">
                                         <div class="signup">
-                                            <div class="search">
-                                               <div class="searchCont">
-                                                <div class="search_icon"><input type="search" name="search" class="search-box"
-                                                    placeholder="SEARCH STATE">
-                                                </div>
-                                               </div>
-                                                
+                                            <div class="maincontsearch">
+                                                <img src="svg/Search.svg" alt="" class="searchingicon"><input type="search" name="search" class="search-box" id="searchbox" placeholder="SEARCH STATE">
                                             </div>
                                             <div class="states121">
                                                 <div class="Abia" onclick="populateLocalGov(this)">abia State</div>
@@ -205,21 +200,16 @@
                             </div>
 
                         </div>
-                        <div class="filter_input">
+                        <div class="filter_input" id="localfil">
                             <div class="input_text" id="localGBar">LGA</div>
                             <div class="input_button">
                                 <img src="svg/Right Icon.svg" alt="dropdown" class="dropdown">
                                 <div class="dropdown">
-                                    <div class="dropdown-content">
+                                    <div class="dropdown-content" id="localfil">
                                         <div class="signup">
-                                            <div class="search">
-                                               <div class="searchCont">
-                                                <div class="search_icon"><input type="search" name="search" class="search-box"
-                                                    placeholder="SEARCH STATE">
-                                                </div>
-                                               </div>
-                                                
-                                            </div>
+                                            <div class="maincontsearch">
+                                                <img src="svg/Search.svg" alt="" class="searchingicon"><input type="search" name="search" class="search-box" id="searchbox" placeholder="SEARCH LGA">
+                                        </div>
                                             <div class="states121" id="localGov"></div>
                                         </div>
                                     </div>
@@ -228,9 +218,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="map">
-                    <img src="svg/map.svg" alt="map" class="map">
-                </div>
+                <img src="svg/map.svg" alt="map" class="map">
             </div>
         </div>
     </div>
