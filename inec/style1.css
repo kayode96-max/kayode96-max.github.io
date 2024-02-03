@@ -115,6 +115,7 @@ body{
 .content_body{
     background: #F5F6F7;
     display: flex;
+    height: 100%;
 }
 .content_list{
     padding: 21px 21px 21px 28px;
