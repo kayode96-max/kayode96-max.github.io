@@ -1,0 +1,121 @@
+.notificationBell{
+    position: relative;
+    
+}
+
+.notificationBox{
+    position: absolute;
+    background: #FFF;
+    border-radius: 10px;
+    padding: 24px;
+    display: none;
+    flex-direction: column;
+    width: 511px;
+    gap: 41px;
+    z-index: 2;
+    right: 0;
+}
+.notificationIcon{
+    cursor: pointer;
+}
+.closenote{
+    cursor: pointer;
+}
+.notificationHead{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #233149;
+}
+.notificationHead span{
+    color: #E23B3B;
+    font-size: 20px;
+}
+.notificationNav{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    color: #455C7D;
+}
+.notificationList{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.notListline{
+    width: auto;
+    height: 1px;
+    margin-top: -5px;
+    background-color: #C9D9E5;
+}
+
+.listItem1{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.listItem11{
+    display: flex;
+    gap: 10px;
+}
+.listItemText1{
+    font-family: sans-serif;
+    color: #9D1F1F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%
+}
+.listItemText21{
+    font-family: sans-serif;
+    color: #E2B93B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%
+}
+.listItemText31{
+    font-family: sans-serif;
+    color: #9D1F1F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%
+}
+.listItemText2{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    color: #334563;
+}
+.listItemText3{
+    display: flex;
+    gap: 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    color: #7993B1;
+}
+.locLine{
+    width: 1px;
+    background-color: #C9D9E5;
+}
+.view{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    text-decoration-line: underline;
+    color: #238F53;
+    cursor: pointer;
+}

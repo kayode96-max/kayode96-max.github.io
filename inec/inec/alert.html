@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alerts</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="alert.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="calendar.css">
+</head>
+<body>
+    <div class="leftnavbar">
+        <div class="logo">
+            <img src="svg/Vector.svg" alt="logo">
+            <div class="logo_text">Security Alert <br>Notification system</div>
+
+        </div>
+        <div class="navbuttons">
+            <ul>
+                <li>
+                    <a href="dashboard.html">
+                        <img src="svg/Chart.svg" alt="Dashboard">
+                        <div class="navbuttons_text">Dashboard</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="Emergency">
+                        <img src="svg/Document Align Left 13.svg" alt="Emergency Report">
+                        <div class="navbuttons_text">Emergency Report</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="alert.html">
+                        <img src="svg/Danger Circle.svg" alt="Alert">
+                        <div class="navbuttons_text">Alert</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="user management.html">
+                        <img src="svg/Frame 3.svg" alt="User Managemet">
+                        <div class="navbuttons_text">User Managemet</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <img src="svg/Setting.svg" alt="Settings">
+                        <div class="navbuttons_text">Settings</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="logOut">
+                        <img src="svg/Group 427318968.svg" alt="Log Out">
+                        <div class="navbuttons_text">Log Out</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content_part">
+        <div class="header">
+            <div class="page_title">Alert</div>
+            <div class="profile">
+                <div class="notificationBell" >
+                    <img src="svg/Notification 1.svg" alt="Notification" class="notificationIcon" onclick="shownote()">
+                    <div class="notificationBox">
+                        <div class="notificationHead">Notifications <span class="closenote" onclick="closePopup()">close all</span></div>
+                        <div class="notificationNav">
+                            <div class="navText">Declined</div>
+                            <div class="navText">Resolved</div>
+                            <div class="navText">unassigned</div>
+                            <div class="navText">assigned</div>
+                        </div>
+                        <div class="notificationList">
+                            <div class="notListline"></div>
+                            <div class="listItem1">
+                                <div class="listItem11">
+                                    <img src="svg/Ellipse 964.svg" alt="dot" class="dot">
+                                    <div class="listItemText1">Kidnapping(HL)</div>
+                                </div>
+                                <div class="listItemText2">Gbongan- Osogbo Road, Osogbo, Osun State, <br> 230261, Nigeria</div>
+                                <div class="listItemText3"><span>Polling Unit: 0002/001/11/20</span><div class="locLine"></div><span>by Ifedayo Osu</span></div>
+                                <div class="view" onclick="usermanageopen()">View Details</div>
+                            </div>
+                            <div class="notListline"></div>
+                            <div class="listItem1">
+                                <div class="listItem11">
+                                    <img src="svg/Ellipse 964.svg" alt="dot" class="dot">
+                                    <div class="listItemText21">Stealing(LL)</div>
+                                </div>
+                                <div class="listItemText2">Gbongan- Osogbo Road, Osogbo, Osun State, <br> 230261, Nigeria</div>
+                                <div class="listItemText3"><span>Polling Unit: 0002/001/11/20</span><div class="locLine"></div><span>by Ifedayo Osu</span></div>
+                                <div class="view" onclick="usermanageopen()">View Details</div>
+                            </div>
+                            <div class="notListline"></div>
+                            <div class="listItem1">
+                                <div class="listItem11">
+                                    <img src="svg/Ellipse 964.svg" alt="dot" class="dot">
+                                    <div class="listItemText31">Shooting(HL)</div>
+                                </div>
+                                <div class="listItemText2">Gbongan- Osogbo Road, Osogbo, Osun State, <br> 230261, Nigeria</div>
+                                <div class="listItemText3"><span>Polling Unit: 0002/001/11/20</span><div class="locLine"></div><span>by Ifedayo Osu</span></div>
+                                <div class="view" onclick="usermanageopen()">View Details</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="profile_pic">
+                    <img src="svg/Ellipse 233.svg" alt="profile picture">
+                </div>
+                <div class="profile_name">Field Admin</div>
+            </div>
+        </div>
+        <!--<div class="content_body">
+            
+            <div class="content_list">
+               <div class="content_list_1">Realtime Flashpoints - <span id="number">120</span></div>
+               <div class="content_list_2">
+                    <div class="list" id="low"><div>Low</div><div class="fig">2</div></div>
+                    <div class="list" id="medium"><div>Medium</div><div class="fig">8</div></div>
+                    <div class="list" id="high"><div>High</div><div class="fig">2</div></div>
+                    <div class="list" id="critical"><div>Critical</div><div class="fig">88</div></div>
+                </div>
+                <div class="content_list_line"></div>
+                <div class="content_list_analytics">Analytics</div>
+                <div class="content_list_totalbox1"><div class="content_list_totalboxText">Total no. of alerts</div> <div class="fig">40</div></div>
+                <div class="content_list_totalbox2"><div class="content_list_totalboxText">Total no. of unassigned alerts</div> <div class="fig">474</div></div>
+                <div class="content_list_totalbox3"><div class="content_list_totalboxText">Total no. of unresolved alerts</div> <div class="fig">10</div></div>
+                <div class="content_list_line"></div>
+                <div class="content_list_analytics">Locations with the most alerts</div>
+                <div class="alertLocations">
+                    <div class="states">Abuja</div>
+                    <div class="states">Jos</div>
+                    <div class="states">Kaduna</div>
+                    <div class="states">Lagos</div>
+                    <div class="states">Ogun</div>
+                    <div class="states">Osun</div>
+                    <div class="states">Ekiti</div>
+                    <div class="states">Borno</div>
+                    <div class="states">Niger</div>
+                </div>
+
+            </div>
+            <div class="contentBody_line"></div>
+            <div class="content_body_main">
+                <div class="content_body_mainHead">
+                    <div class="content_body_mainText">Filter by:</div>
+                    <div class="mainHead_buttons">
+                        <div class="filter_input">
+                            <div class="input_text">State</div>
+                            <div class="input_button">
+                                <img src="svg/Right Icon.svg" alt="dropdown" class="dropdown">
+                                <div class="states_dropdown"></div>
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                        <div class="signup">
+                                           <div class="maincontsearch">
+                                <img src="svg/Search.svg" alt="" class="searchingicon"><input type="search" name="search" class="search-box" id="searchbox" placeholder="SEARCH">
+                        </div>
+                                            <div class="states121">
+                                                <div>abia State</div>
+                                                <div>adamawa State</div>
+                                                <div>akwaibom State</div>
+                                                <div>anambra State</div>
+                                                <div>bauchi State</div>
+                                                <div>bayelsa State</div>
+                                                <div>benue State</div>
+                                                <div>bornu State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                                <div>crossriver State</div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="filter_input">
+                            <div class="input_text">LGA</div>
+                            <div class="input_button">
+                                <img src="svg/Right Icon.svg" alt="dropdown" class="dropdown">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map">
+                    <img src="svg/map.svg" alt="map" class="map">
+                </div>
+            </div>
+        </div>-->
+        <div class="contentHeading">
+            <div class="contheadright">
+                <div class="contHead1" onclick="analyticsfun()"><span>Analytics</span><div class="contHead1Line"></div></div>
+            <div class="contHead2" onclick="responsefun()"><span>Reports</span><div class="contHead2Line"></div></div>
+            </div>
+            <div class="contheadleft">
+                <button class="d1">Export as Png</button>
+                <button class="d2">export as csv</button>
+           
+            </div>
+        </div>
+        <div class="contentbodying">
+            <div class="cbday"><span>Today</span>
+            <img src="svg/Angle-right.svg" alt="" class="arrow">
+            </div>
+            <div class="cbdata">
+                <div class="talerts">Total Number of Alerts <span>40</span></div>
+                <div class="tua">Total number of unassigned <span>30</span></div>
+                <div class="tur">Total number of unresolved <span>10</span></div>
+                <div class="tr">Total number of resolved <span>100</span></div>
+                <div class="tac">Total number of alerts by category <span>40</span></div>
+                <div class="tt">Total number of alerts by type <span>4</span></div>
+            </div>
+        </div>
+        <div class="contentbodying2">
+            <div class="alertsfilter">
+                <div class="content_body_mainHead1">
+                    <div class="content_body_mainText">Filter by:</div>
+                    <div class="mainHead_buttons">
+                        <div class="filter_input">
+                            <div class="input_text">Date</div>
+                            <div class="input_button">
+                                <img src="svg/Right Icon.svg" alt="dropdown" class="dropdown">
+                                <div class="dropdown">
+                                        <div class="calendar">
+                                            <div class="startdate">
+                                                <div class="startdatehead">Start Date</div>
+                                                <input type="date" class="startdatevalue">
+                                                <img src="svg/Calendar Elements.svg" alt="" class="calendarsvg">
+                                            </div>
+                                            <div class="startdate">
+                                                <div class="startdatehead">End Date</div>
+                                                <input type="date" class="startdatevalue">
+                                                <img src="svg/Calendar Elements.svg" alt="" class="calendarsvg">
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter_input">
+                            <div class="statesBar" id="statesBar">State</div>
+                            <div class="input_button">
+                                <img src="svg/Right Icon.svg" alt="dropdown" class="dropdown">
+                                <div class="states_dropdown"></div>
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                        <div class="signup">
+                                            <div class="maincontsearch">
+                                                <img src="svg/Search.svg" alt="" class="searchingicon"><input type="search" name="search" class="search-box" id="searchbox" placeholder="SEARCH STATE">
+                                            </div>
+                                            <div class="states121">
+                                                <div class="Abia" onclick="populateLocalGov(this)">abia State</div>
+                                                <div class="Adamawa" onclick="populateLocalGov(this)">adamawa State</div>
+                                                <div class="AkwaIbom" onclick="populateLocalGov(this)">Akwa Ibom State</div>
+                                                <div class="Anambra" onclick="populateLocalGov(this)">Anambra State</div>
+                                                <div class="Bauchi" onclick="populateLocalGov(this)">bauchi State</div>
+                                                <div class="Bayelsa" onclick="populateLocalGov(this)">bayelsa State</div>
+                                                <div class="Benue" onclick="populateLocalGov(this)">benue State</div>
+                                                <div class="Borno" onclick="populateLocalGov(this)">borno State</div>
+                                                <div class="CrossRiver" onclick="populateLocalGov(this)">crossriver State</div>
+                                                <div class="Delta" onclick="populateLocalGov(this)">delta State</div>
+                                                <div class="Ebonyi" onclick="populateLocalGov(this)">ebonyi State</div>
+                                                <div class="Edo" onclick="populateLocalGov(this)">Edo State</div>
+                                                <div class="Ekiti" onclick="populateLocalGov(this)">ekiti State</div>
+                                                <div class="Enugu" onclick="populateLocalGov(this)">enugu State</div>
+                                                <div class="FCT" onclick="populateLocalGov(this)">FCT</div>
+                                                <div class="Gombe" onclick="populateLocalGov(this)">Gombe State</div>
+                                                <div class="Imo" onclick="populateLocalGov(this)">imo State</div>
+                                                <div class="Jigawa" onclick="populateLocalGov(this)">jigawa State</div>
+                                                <div class="Kaduna" onclick="populateLocalGov(this)">Kaduna State</div>
+                                                <div class="Kano" onclick="populateLocalGov(this)">kano State</div>
+                                                <div class="Katsina" onclick="populateLocalGov(this)">katsina State</div>
+                                                <div class="Kebbi" onclick="populateLocalGov(this)">kebbi State</div>
+                                                <div class="Kogi" onclick="populateLocalGov(this)">kogi State</div>
+                                                <div class="Kwara" onclick="populateLocalGov(this)">kwara State</div>
+                                                <div class="Lagos" onclick="populateLocalGov(this)">Lagos State</div>
+                                                <div class="Nasarawa" onclick="populateLocalGov(this)">nasarawa State</div>
+                                                <div class="Niger" onclick="populateLocalGov(this)">niger State</div>
+                                                <div class="Ogun" onclick="populateLocalGov(this)">ogun State</div>
+                                                <div class="Ondo" onclick="populateLocalGov(this)">ondo State</div>
+                                                <div class="Osun" onclick="populateLocalGov(this)">Osun State</div>
+                                                <div class="Oyo" onclick="populateLocalGov(this)">oyo State</div>
+                                                <div class="Plateau" onclick="populateLocalGov(this)">Plateau State</div>
+                                                <div class="Rivers" onclick="populateLocalGov(this)">rivers State</div>
+                                                <div class="Sokoto" onclick="populateLocalGov(this)">sokoto State</div>
+                                                <div class="Taraba" onclick="populateLocalGov(this)">Taraba State</div>
+                                                <div class="Yobe" onclick="populateLocalGov(this)">yobe State</div>
+                                                <div class="Zamfara" onclick="populateLocalGov(this)">zamfara State</div>
+                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="filter_input">
+                            <div class="localGBar" id="localGBar">LGA</div>
+                            <div class="input_button">
+                                <img src="svg/Right Icon.svg" alt="dropdown" class="dropdown">
+                                <div class="dropdown">
+                                    <div class="dropdown-content">
+                                        <div class="signup">
+                                           <div class="maincontsearch">
+                                                <img src="svg/Search.svg" alt="" class="searchingicon"><input type="search" name="search" class="search-box" id="searchbox" placeholder="SEARCH LGA" >
+                                            </div>
+                                            <div class="states121" id="localGov"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filterreset">Reset filter</div>
+                </div>
+            </div>
+            <div class="alertreport">
+                <div class="ummaincont">
+                    <div class="mainconthead">
+                        <div class="mainconttext">
+                            <div class="" id="pendingbutton"><span>Pending</span><div class="pendline"></div></div>
+                            <div class="">Resolved</div>
+                        </div>
+                        <div class="maincontsearch">
+                                <img src="svg/Search.svg" alt="" class="searchingicon"><input type="search" name="search" class="search-box" id="searchbox" placeholder="SEARCH">
+                        </div>
+                    </div>
+                    <div class="alertinglist">
+                        <div class="alertinlisthead">
+                            <div class="alh1"><span class="hh22">Alert Type</span></div>
+                            <div class="alh2"><span class="hh22">severity</span></div>
+                            <div class="alh3"><span class="hh22">Address</span></div>
+                            <div class="alh4"><span class="hh22">Sender</span></div>
+                            <div class="alh5"><span class="hh22">Date/time</span></div>
+                            <div class="alh6"><span class="hh22">Status</span></div>
+                        </div>
+                        <div class="alertlistcont1">
+                            <div class="alh1">Destruction of facilities - CL</div>
+                            <div class="alh2">Critical</div>
+                            <div class="alh3">Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</div>
+                            <div class="alh4">Innocent Ekwulo</div>
+                            <div class="alh5">Oct 21, 2022, 4:11:05</div>
+                            <div class="alh6"><span class="alhstatus">Unresolved</span></div>
+                        </div>
+                        <div class="alertlistcont2">
+                            <div class="alh1">Destruction of facilities - CL</div>
+                            <div class="alh2">Critical</div>
+                            <div class="alh3">Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</div>
+                            <div class="alh4">Innocent Ekwulo</div>
+                            <div class="alh5">Oct 21, 2022, 4:11:05</div>
+                            <div class="alh6"><span class="alhstatus">Unresolved</span></div>
+                        </div>
+                        <div class="alertlistcont1">
+                            <div class="alh1">Destruction of facilities - CL</div>
+                            <div class="alh2">Critical</div>
+                            <div class="alh3">Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</div>
+                            <div class="alh4">Innocent Ekwulo</div>
+                            <div class="alh5">Oct 21, 2022, 4:11:05</div>
+                            <div class="alh6"><span class="alhstatus">Unresolved</span></div>
+                        </div>
+                        <div class="alertlistcont2">
+                            <div class="alh1">Destruction of facilities - CL</div>
+                            <div class="alh2">Critical</div>
+                            <div class="alh3">Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</div>
+                            <div class="alh4">Innocent Ekwulo</div>
+                            <div class="alh5">Oct 21, 2022, 4:11:05</div>
+                            <div class="alh6"><span class="alhstatus">Unresolved</span></div>
+                        </div>
+                        <div class="alertlistcont1">
+                            <div class="alh1">Destruction of facilities - CL</div>
+                            <div class="alh2">Critical</div>
+                            <div class="alh3">Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</div>
+                            <div class="alh4">Innocent Ekwulo</div>
+                            <div class="alh5">Oct 21, 2022, 4:11:05</div>
+                            <div class="alh6"><span class="alhstatus">Unresolved</span></div>
+                        </div>
+                        <div class="alertlistcont2">
+                            <div class="alh1">Destruction of facilities - CL</div>
+                            <div class="alh2">Critical</div>
+                            <div class="alh3">Rumuoparali, Port-Harcourt, Rivers State, 500211, Nigeria</div>
+                            <div class="alh4">Innocent Ekwulo</div>
+                            <div class="alh5">Oct 21, 2022, 4:11:05</div>
+                            <div class="alh6"><span class="alhstatus">Unresolved</span></div>
+                        </div>
+                    </div>
+                    <div class="confooter">
+                        <div class="confooternum">1-8 of 23</div>
+                        <div class="confootimg" style="display: flex; gap: 10px;">
+                            <img src="svg/Arrow - Right.svg" alt="left" class="contfootleft">
+                            <img src="svg/Arrow - Right1.svg" alt="right" class="contfootright">
+                        </div>
+                        <div class="confootend">
+                            <div class="footend1">Rows per page</div>
+                            <div class="footend2"><span>5</span><img src="svg/Angle-right.svg" alt="page" class="arrowdown"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="backdrop" id="backdrop" onclick="closePopup()"></div>
+
+
+    <div class="erd" id="erd">
+        <div class="erdHead">
+            <div class="erdHeadText1">Emergency Report Details</div>
+            <div class="erdHeadClose" onclick="closePopup()"><img src="svg/x-circle.svg" alt=""></div>
+        </div>
+        <div class="erdDetails">
+            <div class="erdDetailsLevel">critical</div>
+            <div class="erdDetailsMark" onclick="closePopup()">Mark as resolved</div>
+        </div>
+        <div class="erdMap"><img src="" alt="Emergency Details Map"></div>
+        <div class="erdDescription">
+            <div class="erdDescription1">Kidnapping(CL) <span class="DesTxt1">Pending</span></div>
+            <div class="erdDescription2"><span class="DescText">Sender</span> <span class="DesTxt">Ifedayo Osy</span></div>
+            <div class="erdDescription3"><span class="DescText">Date/Time </span><span class="DesTxt">Jul 4, 2022, 1:28:30 PM</span></div>
+            <div class="erdDescription4"><span class="DescText">Polling Unit</span> <span class="DesTxt">0002/01/02/22</span></div>
+            <div class="erdDescription5"><span class="DescText">Address</span><span class="DesTxt">Gbongan- Osogbo Road, Osogbo,<br> Osun State, 230261, Nigeria</span></div>
+            <div class="erdDescription6"><span class="DescText">ID</span><span class="DesTxt">16zzKEkTpf</span></div>
+            <div class="erdDescription7"><span class="DescText">Description</span> <span class="DesTxt">Accident</span></div>
+        </div>
+        <div class="erdLine"></div>
+        <div class="erdFoot">
+            <div class="erdFootText"><span class="assign1">Incident has not be assigned</span><br><span class="assign2">Assign Response Team</span></div>
+            <div class="erdDetailsMark" onclick="showrole()">Assign Response Team</div>
+        </div>
+    </div>
+    <div class="erd1" id="erd">
+        <div class="erdHead">
+            <div class="erdHeadText1">Incident Detail</div>
+            <div class="erdHeadClose" onclick="closePopup()"><img src="svg/x-circle.svg" alt=""></div>
+        </div>
+        <div class="erddcont">
+            <div class="erddconttext">Response Team</div>
+            <input type="text" class="erddsearch" placeholder="Enter team name">
+            <!--<div class="erddsearch">
+                <div class="erddsearchtext">Enter team name</div>
+                <div class="search_icon"><input type="search" name="search" class="search-box"
+                    placeholder=""></div>
+            </div>-->
+        </div>
+        <div class="erddbut">
+            <div class="goback" onclick="usermanageopen()">Go back</div>
+            <div class="assignbut" onclick="closePopup()">Assign</div>
+        </div>
+    </div>
+    <div id="erd2"></div>
+    <script src="inec.js"></script>
+    <script>
+        const analytics = document.querySelector(".contentbodying")
+        const reports = document.querySelector(".contentbodying2")
+        const reportText = document.querySelector('.contHead2')
+        const analyticsText = document.querySelector(".contHead1")
+        const reportLine = document.querySelector('.contHead2Line')
+        const analyticsLine = document.querySelector('.contHead1Line')
+
+        function analyticsfun(){
+            analytics.style.display = "flex"
+            reports.style.display = "none"
+            analyticsText.style.color = "#238F53"
+            reportText.style.color = "#455C7D"
+            reportLine.style.display = "none"
+            analyticsLine.style.display = "flex"
+
+
+        }
+        
+        function responsefun(){
+            analytics.style.display = "none"
+            reports.style.display = "flex"
+            reportText.style.color = "#238F53"
+            analyticsText.style.color = "#455C7D"
+            analyticsLine.style.display = "none"
+            reportLine.style.display = "flex"
+        }
+    </script>
+
+</body>
+</html> 
+
+
+
+    
