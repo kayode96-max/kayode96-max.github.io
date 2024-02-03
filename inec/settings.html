@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="alert.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="setalerts.css">
+</head>
+<body>
+    <div class="leftnavbar">
+        <div class="logo">
+            <img src="svg/Vector.svg" alt="logo">
+            <div class="logo_text">Security Alert <br>Notification system</div>
+
+        </div>
+        <div class="navbuttons">
+            <ul>
+                <li>
+                    <a href="dashboard.html">
+                        <img src="svg/Chart.svg" alt="Dashboard">
+                        <div class="navbuttons_text">Dashboard</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="Emergency">
+                        <img src="svg/Document Align Left 13.svg" alt="Emergency Report">
+                        <div class="navbuttons_text">Emergency Report</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="alert.html">
+                        <img src="svg/Danger Circle.svg" alt="Alert">
+                        <div class="navbuttons_text">Alert</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="user management.html">
+                        <img src="svg/Frame 3.svg" alt="User Managemet">
+                        <div class="navbuttons_text">User Managemet</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <img src="svg/Setting.svg" alt="Settings">
+                        <div class="navbuttons_text">Settings</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="logOut">
+                        <img src="svg/Group 427318968.svg" alt="Log Out">
+                        <div class="navbuttons_text">Log Out</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content_part">
+        <div class="header">
+            <div class="page_title">Settings</div>
+            <div class="profile">
+                <div class="notificationBell" >
+                    <img src="svg/Notification 1.svg" alt="Notification" class="notificationIcon" onclick="shownote()">
+                    <div class="notificationBox">
+                        <div class="notificationHead">Notifications <span class="closenote" onclick="closePopup()">close all</span></div>
+                        <div class="notificationNav">
+                            <div class="navText">Declined</div>
+                            <div class="navText">Resolved</div>
+                            <div class="navText">unassigned</div>
+                            <div class="navText">assigned</div>
+                        </div>
+                        <div class="notificationList">
+                            <div class="notListline"></div>
+                            <div class="listItem1">
+                                <div class="listItem11">
+                                    <img src="svg/Ellipse 964.svg" alt="dot" class="dot">
+                                    <div class="listItemText1">Kidnapping(HL)</div>
+                                </div>
+                                <div class="listItemText2">Gbongan- Osogbo Road, Osogbo, Osun State, <br> 230261, Nigeria</div>
+                                <div class="listItemText3"><span>Polling Unit: 0002/001/11/20</span><div class="locLine"></div><span>by Ifedayo Osu</span></div>
+                                <div class="view" onclick="usermanageopen()">View Details</div>
+                            </div>
+                            <div class="notListline"></div>
+                            <div class="listItem1">
+                                <div class="listItem11">
+                                    <img src="svg/Ellipse 964.svg" alt="dot" class="dot">
+                                    <div class="listItemText21">Stealing(LL)</div>
+                                </div>
+                                <div class="listItemText2">Gbongan- Osogbo Road, Osogbo, Osun State, <br> 230261, Nigeria</div>
+                                <div class="listItemText3"><span>Polling Unit: 0002/001/11/20</span><div class="locLine"></div><span>by Ifedayo Osu</span></div>
+                                <div class="view" onclick="usermanageopen()">View Details</div>
+                            </div>
+                            <div class="notListline"></div>
+                            <div class="listItem1">
+                                <div class="listItem11">
+                                    <img src="svg/Ellipse 964.svg" alt="dot" class="dot">
+                                    <div class="listItemText31">Shooting(HL)</div>
+                                </div>
+                                <div class="listItemText2">Gbongan- Osogbo Road, Osogbo, Osun State, <br> 230261, Nigeria</div>
+                                <div class="listItemText3"><span>Polling Unit: 0002/001/11/20</span><div class="locLine"></div><span>by Ifedayo Osu</span></div>
+                                <div class="view" onclick="usermanageopen()">View Details</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="profile_pic">
+                    <img src="svg/Ellipse 233.svg" alt="profile picture">
+                </div>
+                <div class="profile_name">Field Admin</div>
+            </div>
+        </div>
+        <div class="settingscontent">
+            <div class="settingsheader">
+                <div class="setprofile" onclick="profilePage()"> <span>Profile</span> <div class="profileline"></div></div>
+                <div class="setalerts" onclick="alertsPage()"><span>Alerts</span> <div class="alertsline"></div></div>
+                <div class="setsos" onclick="sosPage()"><span>SOS</span><div class="sosline"></div></div>
+            </div>
+            <div class="setcontents">
+                <div class="setprofilepic">
+                    <div class="setpp">
+                        <div class="profilepps">
+                            <img src="svg/Ellipse 962.svg" alt="current profile picture" class="profilepp">
+                        </div>
+                        <div class="profileptxt">Update profile picture</div>
+                    </div>
+                </div>
+                <div class="setcontpart">
+                    <div class="setpersonalinfo">
+                        <div class="pinfoname">
+                            <div class="pinfofirst">
+                                <div class="fstname">First Name</div>
+                                <div class="fstnamename">Ifedayo</div>
+                            </div>
+                            <div class="pinfofirst">
+                                <div class="fstname">Last Name</div>
+                                <div class="fstnamename">Osy</div>
+                            </div>
+                        </div>
+                        <div class="pinfoname">
+                            <div class="pinfofirst">
+                                <div class="fstname">Email Address</div>
+                                <div class="fstnameemail">training@inec.com</div>
+                            </div>
+                            <div class="pinfofirst">
+                                <div class="fstname">Phone NO.</div>
+                                <div class="fstnameemail">+23481534422</div>
+                            </div>
+                        </div>
+                        <div class="pinfofirst">
+                            <div class="fstname">User Role</div>
+                            <div class="fstnamename">Admin</div>
+                        </div>
+                    </div>
+                    <div class="setupdatepassword">
+                        <div class="suphead">Update Password</div>
+                        <div class="suppwords">
+                            <div class="supnewpword">
+                                <div class="supnewpwordtxt">New Password</div>
+                                <div class="pwordinput">
+                                    <input type="password" class="setnewppwordss"><img src="svg/Show.svg" alt="" class="show">
+
+                                </div>
+                                <div class="pwordcaution">
+                                    <img src="svg/caution.svg" alt="caution icon" class="caution">
+                                    <div class="cautiontxt">Min 8 Alphanumeric characters</div>
+                                </div>
+                            </div>
+                            <div class="supnewpword">
+                                <div class="supnewpwordtxt">Confirm Password</div>
+                                <div class="pwordinput">
+                                    <input type="password" class="setnewppwordss"><img src="svg/Show.svg" alt="" class="show">
+                                </div>
+                                <div class="pwordcaution">
+                                    <img src="svg/caution.svg" alt="caution icon" class="caution">
+                                    <div class="cautiontxt">Min 8 Alphanumeric characters</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="setupdate">Update</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="setalertscontents">
+                <div class="setalertsheading">Alert category</div>
+                <div class="setalertcritical">
+                    <div class="setalertcriticaltitle">
+                        <div class="setcriticaltxt">Critical Level</div>
+                        <div class="setcriticalbutton">Add new type <img src="svg/plus.svg" alt="add new alert type to critical" class="plus"></div>
+                    </div>
+                    <div class="criticalalerttypesset">
+                        <div class="critit11">
+                            <div class="setcriticalitems">
+                                <div class="critkid">Kidnapping-1hr</div>
+                                <div class="critid">CL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Missing Person(s) - 3 days</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Shooting - 24hrs</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                        </div>
+                        <div class="critit11">
+                            <div class="setcriticalitems">
+                                <div class="critkid">Threat of Imminent Attack - 3hrs</div>
+                                <div class="critid" id="ml">ML</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Possession of offensive weapon - 30mins</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setalertcritical">
+                    <div class="setalertcriticaltitle">
+                        <div class="setcriticaltxt">High Level</div>
+                        <div class="setcriticalbutton">Add new type <img src="svg/plus.svg" alt="add new alert type to critical" class="plus"></div>
+                    </div>
+                    <div class="criticalalerttypesset">
+                        <div class="critit11">
+                            <div class="setcriticalitems">
+                                <div class="critkid">Kidnapping-1hr</div>
+                                <div class="critid">CL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Missing Person(s) - 3 days</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Shooting - 24hrs</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                        </div>
+                        <div class="critit11">
+                            <div class="setcriticalitems">
+                                <div class="critkid">Threat of Imminent Attack - 3hrs</div>
+                                <div class="critid" id="ml">ML</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Possession of offensive weapon - 30mins</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setalertcritical">
+                    <div class="setalertcriticaltitle">
+                        <div class="setcriticaltxt">Medium Level</div>
+                        <div class="setcriticalbutton">Add new type <img src="svg/plus.svg" alt="add new alert type to critical" class="plus"></div>
+                    </div>
+                    <div class="criticalalerttypesset">
+                        <div class="critit11">
+                            <div class="setcriticalitems">
+                                <div class="critkid">Kidnapping-1hr</div>
+                                <div class="critid">CL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Missing Person(s) - 3 days</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Shooting - 24hrs</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                        </div>
+                        <div class="critit11">
+                            <div class="setcriticalitems">
+                                <div class="critkid">Threat of Imminent Attack - 3hrs</div>
+                                <div class="critid" id="ml">ML</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Possession of offensive weapon - 30mins</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="setalertcritical">
+                    <div class="setalertcriticaltitle">
+                        <div class="setcriticaltxt">Low Level</div>
+                        <div class="setcriticalbutton">Add new type <img src="svg/plus.svg" alt="add new alert type to critical" class="plus"></div>
+                    </div>
+                    <div class="criticalalerttypesset">
+                        <div class="critit11">
+                            <div class="setcriticalitems">
+                                <div class="critkid">Kidnapping-1hr</div>
+                                <div class="critid">CL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Missing Person(s) - 3 days</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Shooting - 24hrs</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                        </div>
+                        <div class="critit11">
+                            <div class="setcriticalitems">
+                                <div class="critkid">Threat of Imminent Attack - 3hrs</div>
+                                <div class="critid" id="ml">ML</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                            <div class="setcriticalitems">
+                                <div class="critkid">Possession of offensive weapon - 30mins</div>
+                                <div class="critid" id="hl">HL</div>
+                                <div class="critx"><img src="svg/x-circle.svg" alt="delete alert type" class="del"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="setsoscontent">
+                <div class="sosres">
+                    <div class="rescipient">SOS Rescipient</div>
+                    <div class="respnum">
+                        <div class="sosnumbers">08145832929 <img src="svg/x-circle.svg" alt="" class="resx"></div>
+                        <div class="sosnumbers">08145832929 <img src="svg/x-circle.svg" alt="" class="resx"></div>
+                        <div class="sosnumbers">08145832929 <img src="svg/x-circle.svg" alt="" class="resx"></div>
+                        <div class="sosnumbers">08145832929 <img src="svg/x-circle.svg" alt="" class="resx"></div>
+                        <div class="newresp">Type New Rescipient</div>
+                    </div>
+                </div>
+                <div class="sosres">
+                    <div class="rescipient">SOS Emergency Message</div>
+                    <form action="">
+                        <textarea name="sosmessage" id="" cols="30" rows="10" class="sosmessage" placeholder="Type Emergency Message"></textarea>
+                    </form>
+                </div>
+                <button class="setupdate">Save</button>
+            </div>
+        </div>
+       
+        <div class="backdrop" id="backdrop" onclick="closePopup()"></div>
+    </div>
+    <div class="backdrop" id="backdrop" onclick="closePopup()"></div>
+
+
+    <div class="erd" id="erd">
+        <div class="erdHead">
+            <div class="erdHeadText1">Emergency Report Details</div>
+            <div class="erdHeadClose" onclick="closePopup()"><img src="svg/x-circle.svg" alt=""></div>
+        </div>
+        <div class="erdDetails">
+            <div class="erdDetailsLevel">critical</div>
+            <div class="erdDetailsMark" onclick="closePopup()">Mark as resolved</div>
+        </div>
+        <div class="erdMap"><img src="" alt="Emergency Details Map"></div>
+        <div class="erdDescription">
+            <div class="erdDescription1">Kidnapping(CL) <span class="DesTxt1">Pending</span></div>
+            <div class="erdDescription2"><span class="DescText">Sender</span> <span class="DesTxt">Ifedayo Osy</span></div>
+            <div class="erdDescription3"><span class="DescText">Date/Time </span><span class="DesTxt">Jul 4, 2022, 1:28:30 PM</span></div>
+            <div class="erdDescription4"><span class="DescText">Polling Unit</span> <span class="DesTxt">0002/01/02/22</span></div>
+            <div class="erdDescription5"><span class="DescText">Address</span><span class="DesTxt">Gbongan- Osogbo Road, Osogbo,<br> Osun State, 230261, Nigeria</span></div>
+            <div class="erdDescription6"><span class="DescText">ID</span><span class="DesTxt">16zzKEkTpf</span></div>
+            <div class="erdDescription7"><span class="DescText">Description</span> <span class="DesTxt">Accident</span></div>
+        </div>
+        <div class="erdLine"></div>
+        <div class="erdFoot">
+            <div class="erdFootText"><span class="assign1">Incident has not be assigned</span><br><span class="assign2">Assign Response Team</span></div>
+            <div class="erdDetailsMark" onclick="showrole()">Assign Response Team</div>
+        </div>
+    </div>
+    <div class="erd1" id="erd">
+        <div class="erdHead">
+            <div class="erdHeadText1">Incident Detail</div>
+            <div class="erdHeadClose" onclick="closePopup()"><img src="svg/x-circle.svg" alt=""></div>
+        </div>
+        <div class="erddcont">
+            <div class="erddconttext">Response Team</div>
+            <input type="text" class="erddsearch" placeholder="Enter team name">
+            <!--<div class="erddsearch">
+                <div class="erddsearchtext">Enter team name</div>
+                <div class="search_icon"><input type="search" name="search" class="search-box"
+                    placeholder=""></div>
+            </div>-->
+        </div>
+        <div class="erddbut">
+            <div class="goback" onclick="usermanageopen()">Go back</div>
+            <div class="assignbut" onclick="closePopup()">Assign</div>
+        </div>
+    </div>
+    <div id="erd2"></div>
+    <script src="inec.js"></script>
+    <script>
+        const profile = document.querySelector('.setprofile')
+        const alerts = document.querySelector('.setalerts')
+        const sos = document.querySelector('.setsos')
+        const profileContent = document.querySelector('.setcontents')
+        const alertsContent = document.querySelector('.setalertscontents')
+        const sosContent = document.querySelector('.setsoscontent')
+        const profileLine = document.querySelector('.profileline')
+        const alertsLine = document.querySelector('.alertsline')
+        const sosLine = document.querySelector('.sosline')
+
+        function profilePage(){
+            profileContent.style.display = "flex"
+            alertsContent.style.display ="none"
+            sosContent.style.display ="none"
+            profile.style.color = "#238F53"
+            alerts.style.color = '#455C7D'
+            sos.style.color = '#455C7D'
+            profileLine.style.borderColor = '#238F53'
+            alertsLine.style.borderColor = '#F5F6F7'
+            sosLine.style.borderColor = '#F5F6F7'
+        }
+        function alertsPage(){
+            profileContent.style.display = "none"
+            alertsContent.style.display ="flex"
+            sosContent.style.display ="none"
+            profile.style.color = "#455C7D"
+            alerts.style.color = '#238F53'
+            sos.style.color = '#455C7D'
+            profileLine.style.borderColor = '#F5F6F7'
+            alertsLine.style.borderColor = '#238F53'
+            sosLine.style.borderColor = '#F5F6F7'
+        }
+        function sosPage(){
+            profileContent.style.display = "none"
+            alertsContent.style.display ="none"
+            sosContent.style.display = "flex"
+            profile.style.color = "#455C7D"
+            alerts.style.color = '#455C7D'
+            sos.style.color = '#238F53'
+            profileLine.style.borderColor = '#F5F6F7'
+            alertsLine.style.borderColor = '#F5F6F7'
+            sosLine.style.borderColor = '#238F53'
+        }
+    </script>
+</body>
+</html> 
+
+
+
+    

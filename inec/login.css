@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('svg/back.svg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background: #FFF;
+    padding: 32px 24px;
+    width: 353px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.logo{
+    width: 61px;
+    height: 61px;
+    background: #FFF;
+    border: 0;
+}
+.logtxt{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+.txt1{
+    color: #233149;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.txt2{
+    color: #7993B1;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logss{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7993B1;
+}
+.logsemail{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.email{
+    border: 1px solid #C9D9E5;
+    border-radius: 8px;
+    padding: 12px;
+}
+.logspw{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.pww{
+    display: flex;
+    border: 1px solid #C9D9E5;
+    padding: 8px;
+    border-radius: 8px;
+
+}
+.password{
+    border: 0;
+    outline: 0;
+}
+.logsbut{
+    display: flex;
+    width: 100%;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #238F53;
+    color: #FFF;
+    margin-top: 8px;
+}
+
+.signin{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+.txt3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #27AE60;
+    text-transform: capitalize;
+
+}
