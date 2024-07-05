@@ -1,10 +1,16 @@
 *{
     box-sizing: border-box;
 }
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 body{
     margin: 0;
     display: flex;
-    max-height: calc( 100vh + 200%);
+    justify-content: space-between;
+    height: 100vh;
     
 }
 #mainbody001{
@@ -13,12 +19,11 @@ body{
     width: 100%;
     z-index: 0;
     position: relative;
-    max-height: calc( 100vh + 200%);
-
 }
 .leftnavbar{
     max-width: 243px;
     min-height: 100vh;
+
     background: linear-gradient(151deg, #1B5235 0%, #207144 51.36%, #238F53 98.61%);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -284,7 +289,8 @@ body{
     width: 1px;
 }
 .content_body_main{
-
+    margin: 0;
+    
     padding: 18px 24px 0px 48px;
     width: calc(100% - 320px);
     
@@ -364,6 +370,7 @@ body{
 
 .content_body_mainHead{
     display: flex;
+    gap: 8px;
     justify-content: space-between;
 
 }
@@ -375,6 +382,7 @@ body{
     display: flex;
     justify-content: space-between;
     width: 146px;
+    height: fit-content;
     padding: 12px 8px;
     background-color: #FFFFFF;
     font-family: Avenir;
@@ -390,6 +398,7 @@ body{
     align-items: center;
     font-family: Avenir;
     font-size: 16px;
+    text-wrap: nowrap;
     font-style: normal;
     font-weight: 800;
     line-height: 160%;
@@ -529,3 +538,16 @@ body{
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
     z-index: 1;
   }
+  @media screen and (max-width: 450px) {
+    .map{
+        width:80vw ;
+        
+    }
+    .filter_input{
+        width: 120px;
+        padding: 6px;
+    }
+    .content_list{
+        width: auto;
+    }
+}
