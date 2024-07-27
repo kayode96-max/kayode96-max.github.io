@@ -20,6 +20,7 @@ body{
     width: 100%;
     position: relative;
 }
+
 .leftnav{
     background-color: #168DE2;
     padding: 43px 24px;
@@ -75,6 +76,11 @@ body{
     width: 100%;
     
  }
+ .contleft{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
  .heading{
     display: flex;
     height: 80px;
@@ -94,7 +100,6 @@ body{
  }
 .contentleft{
     display: flex;
-    flex-direction: column;
     text-wrap: nowrap;
     
 }
@@ -103,6 +108,7 @@ body{
     font-weight: 700;
     line-height: 22px;
     color: #130F26;
+    text-align: left;
 
 }
 .date{
@@ -111,6 +117,7 @@ body{
 .contentright{
     display: flex;
     gap: 15px;
+    align-items: center;
     
 }
 .contentright img{
@@ -122,6 +129,7 @@ body{
 .profilebox{
     display: flex;
     gap: 10px;
+    align-items: center;
 
 }
 .analytics{
@@ -264,7 +272,8 @@ tr{
             display: none;
             flex-direction: column;
             width: 370px;
-            height: 90%;
+            height: 600px;
+            max-width: 100%;
             padding: 30px 40px;
             gap: 20px;
             background-color: #FFFFFF;
@@ -352,7 +361,7 @@ tr{
 
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
    .body{
     padding: 2px;
     font-size: 0.6em;
@@ -450,5 +459,23 @@ tr{
     .td{
         text-wrap: nowrap;
     }
-    
+    .addminer{
+        height: 600px;
+        left: 0%;
+
+    }
+    .contentleft{
+        flex-direction: column;
+    }
+    #phone, #state, #lg, #ward, #exp{
+        display: none;
+    }
+    .double{
+        display: flex;
+        flex-direction: column;
+    }
+    .ss{
+        text-wrap: wrap;
+        word-wrap: break-word;
+    }
 }

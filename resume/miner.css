@@ -49,8 +49,19 @@
 }
 .userlist2{
     display: none;
+    flex-direction: column;
+    gap: 20px;
 }
-.profiletop{
+.back{
+    width: 31px;
+    height: 31px;
+    display: none;
+}
+.contentleft{
+    display: flex;
+    gap: 10px;
+}
+.profiletop, .profileinfo{
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
@@ -66,7 +77,7 @@
 .ut{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 .utp{
     font-size: 20px;
@@ -103,7 +114,48 @@
     background-color: #FEE5E5;
     color: #FD5E5E;
 }
-@media screen and (max-width: 450px) {
+.profileinfoleft{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.profileinfo{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.personalinfo, .pacess, .pwork{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.piheading{
+    color: #181817;
+    font-family: 'inter', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+.profileclass{
+    font-family: 'roboto' sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8196B3;
+
+}
+.profiledetails{
+    font-family: 'roboto' sans-serif;
+    font-size: 14px;
+    color: #181817;
+    font-weight: 500;
+}
+.pi{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+@media screen and (max-width: 550px) {
     .leftnavpages img{
         align-items: center;
         align-content: center;
@@ -113,10 +165,27 @@
         gap: 10px;
         font-size: 0.8em;
     }
+    .profiletop{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .utp{
+        font-size: 16px;
+    }
+    .contlelefttext{
+        line-height: 1px;
+    }
+    .contleft{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
     .searchleft{
         width: 100%;
         display: flex;
         justify-content: space-between;
     }
-    
+    .profileinfo{
+        flex-direction: column;
+    }   
 }

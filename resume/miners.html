@@ -26,20 +26,26 @@
         </div>
         <div class="content">
             <div class="heading">
+                <div class="contleft">
+                    <img src="src/back.svg" alt="" class="back" id="back" onclick="hideProfile()">
                 <div class="contentleft">
-                    <p class="name">Miners (300)</p>
-                    <p class="date">Good Evening - Sunday, 1 September 2023</p>
+                    <div class="contlefttext">   
+                        <p class="name">Miners (300)</p>
+                        <p class="date">Good Evening - Sunday, 1 September 2023</p>
+                    </div>
+                </div>
                 </div>
                 <div class="contentright">
                     <img src="src/bell.svg" alt="notification" class="bell">
                     <div class="profilebox">
                         <img src="src/profile.svg" alt="profile picture" class="profilepic">
-                        <div class="profiletext"><p class="profilename">Muhammed Bashir</p><a href="settings.html" class="profilelink">view profile</a></div>    
+                        <div class="profiletext"><p class="profilename">Muhammed Bashir</p><a href="settings.html" class="profilelink">view profile</a>
+                        </div>    
                     </div>
                 </div>
             </div>
         
-            <div class="userlist">
+            <div class="userlist" id="userlist">
                 
                 <div class="searchbar">
                     <div class="searchbox"><input type="search" class="search" value="Search Miners....."> </div>                   
@@ -58,11 +64,11 @@
                                 </div>
                                 <div class="amphone">
                                     <div class="amitext">Phone Number:</div>
-                                    <div class="amiphone"><input type="tel" name="phone" id="phone" required class="formm"></div>
+                                    <div class="amiphone"><input type="tel" name="phone" id="phoneform" required class="formm"></div>
                                 </div>
                                 <div class="amphone">
                                     <div class="amitext">State:</div>
-                                    <div class="amistate"><input type="text" name="state" id="state" required class="formm"></div>
+                                    <div class="amistate"><input type="text" name="state" id="stateform" required class="formm"></div>
                                 </div>
                                 <div class="double">
                                     <div class="amphone">
@@ -71,12 +77,12 @@
                                     </div>
                                     <div class="amphone">
                                         <div class="amitext">Ward:</div>
-                                        <div class="amiward"><input type="text" name="ward" id="ward" required class="formm"></div>
+                                        <div class="amiward"><input type="text" name="ward" id="wardform" required class="formm"></div>
                                     </div>
                                 </div>
                                 <div class="amphone">
                                     <div class="amitext">Years of Working Experience:</div>
-                                    <div class="amiexp"><input type="number" name="exp" id="exp" required class="formm"></div>
+                                    <div class="amiexp"><input type="number" name="exp" id="expfpr," required class="formm"></div>
                                 </div>
                                 <div class="amphone">
                                     <div class="amitext">Mining Company:</div>
@@ -88,11 +94,11 @@
                                 </div>
                                 <div class="amphone">
                                     <div class="amitext">Guarantor Number:</div>
-                                    <div class="amiphone"><input type="tel" name="phone" id="phone" required class="formm"></div>
+                                    <div class="amiphone"><input type="tel" name="phone" id="phoneform" required class="formm"></div>
                                 </div>
                                 <div class="amphone">
                                     <div class="amitext">Upload Picture:</div>
-                                    <div class="amiphone"><input type="" name="phone" id="phone" required class="formm"></div>
+                                    <div class="amiphone"><input type="" name="phone" id="phoneform" required class="formm"></div>
                                 </div>
                                 <div class="ambottom">
                                     <div class="amcheck"><input type="checkbox" name="create new" id="amnew" value="kjhkjhkj"><span class="ss">Create new after submit</span></div>
@@ -107,86 +113,86 @@
                     <table>
                         <tr class="tablehead">
                             <td id="tick"><input type="checkbox" name="miners" id=""></td>
-                            <td id="pp"></td>
+                            <td id="pp" onclick="displayProfile()"></td>
                             <td id="minername">Miner Name</td>
                             <td id="phone">Phone Number</td>
                             <td id="state">State</td>
                             <td id="lg">Local Government</td>
                             <td id="ward">Ward</td>
                             <td id="exp">Experience</td>
-                            <td id="action">Action</td>
+                            <td id="action" onclick="displayProfile()">Action</td>
                         </tr>
                         <tr>
                             <td id="tick"><input type="checkbox" name="miners" id=""></td>
-                            <td id="pp"><img src="src/profile pic.svg" alt=""></td>
+                            <td id="pp" onclick="displayProfile()"><img src="src/profile pic.svg" alt=""></td>
                             <td id="minername">Muhammed <span class="initial1">Isah</span><span class="initaial2"> AbdulKadir</span></td>
                             <td id="phone">+234 804 567 9876</td>
                             <td id="state">Niger State</td>
                             <td id="lg">Sulej/Tafa</td>
                             <td id="ward">Tundan wada South</td>
                             <td id="exp">Six (6) Years</td>
-                            <td id="action"><img src="src/action.svg" alt="" class="action"></td>
+                            <td id="action" onclick="displayProfile()"><img src="src/action.svg" alt="" class="action"></td>
                         </tr>
                         <tr>
                             <td id="tick"><input type="checkbox" name="miners" id=""></td>
-                            <td id="pp"><img src="src/profile pic.svg" alt=""></td>
+                            <td id="pp" onclick="displayProfile()"><img src="src/profile pic.svg" alt=""></td>
                             <td id="minername">Muhammed <span class="initial1">Isah</span><span class="initaial2"> AbdulKadir</span></td>
                             <td id="phone">+234 804 567 9876</td>
                             <td id="state">Niger State</td>
                             <td id="lg">Sulej/Tafa</td>
                             <td id="ward">Tundan wada South</td>
                             <td id="exp">Six (6) Years</td>
-                            <td id="action"><img src="src/action.svg" alt="" class="action"></td>
+                            <td id="action" onclick="displayProfile()"><img src="src/action.svg" alt="" class="action"></td>
                         </tr>
                         <tr>
                             <td id="tick"><input type="checkbox" name="miners" id=""></td>
-                            <td id="pp"><img src="src/profile pic.svg" alt=""></td>
+                            <td id="pp" onclick="displayProfile()"><img src="src/profile pic.svg" alt=""></td>
                             <td id="minername">Muhammed <span class="initial1">Isah</span><span class="initaial2"> AbdulKadir</span></td>
                             <td id="phone">+234 804 567 9876</td>
                             <td id="state">Niger State</td>
                             <td id="lg">Sulej/Tafa</td>
                             <td id="ward">Tundan wada South</td>
                             <td id="exp">Six (6) Years</td>
-                            <td id="action"><img src="src/action.svg" alt="" class="action"></td>
+                            <td id="action" onclick="displayProfile()"><img src="src/action.svg" alt="" class="action"></td>
                         </tr><tr>
                             <td id="tick"><input type="checkbox" name="miners" id=""></td>
-                            <td id="pp"><img src="src/profile pic.svg" alt=""></td>
+                            <td id="pp" onclick="displayProfile()"><img src="src/profile pic.svg" alt=""></td>
                             <td id="minername">Muhammed <span class="initial1">Isah</span><span class="initaial2"> AbdulKadir</span></td>
                             <td id="phone">+234 804 567 9876</td>
                             <td id="state">Niger State</td>
                             <td id="lg">Sulej/Tafa</td>
                             <td id="ward">Tundan wada South</td>
                             <td id="exp">Six (6) Years</td>
-                            <td id="action"><img src="src/action.svg" alt="" class="action"></td>
+                            <td id="action" onclick="displayProfile()"><img src="src/action.svg" alt="" class="action"></td>
                         </tr><tr>
                             <td id="tick"><input type="checkbox" name="miners" id=""></td>
-                            <td id="pp"><img src="src/profile pic.svg" alt=""></td>
+                            <td id="pp" onclick="displayProfile()"><img src="src/profile pic.svg" alt=""></td>
                             <td id="minername">Muhammed <span class="initial1">Isah</span><span class="initaial2"> AbdulKadir</span></td>
                             <td id="phone">+234 804 567 9876</td>
                             <td id="state">Niger State</td>
                             <td id="lg">Sulej/Tafa</td>
                             <td id="ward">Tundan wada South</td>
                             <td id="exp">Six (6) Years</td>
-                            <td id="action"><img src="src/action.svg" alt="" class="action"></td>
+                            <td id="action" onclick="displayProfile()"><img src="src/action.svg" alt="" class="action"></td>
                         </tr><tr>
                             <td id="tick"><input type="checkbox" name="miners" id=""></td>
-                            <td id="pp"><img src="src/profile pic.svg" alt=""></td>
+                            <td id="pp" onclick="displayProfile()"><img src="src/profile pic.svg" alt=""></td>
                             <td id="minername">Muhammed <span class="initial1">Isah</span><span class="initaial2"> AbdulKadir</span></td>
                             <td id="phone">+234 804 567 9876</td>
                             <td id="state">Niger State</td>
                             <td id="lg">Sulej/Tafa</td>
                             <td id="ward">Tundan wada South</td>
                             <td id="exp">Six (6) Years</td>
-                            <td id="action"><img src="src/action.svg" alt="" class="action"></td>
+                            <td id="action" onclick="displayProfile()"><img src="src/action.svg" alt="" class="action"></td>
                         </tr>
                     </table>
                 </div>
             </div>
 
-            <div class="userlist2">
+            <div class="userlist2" id="userlist2">
                 <div class="profiletop">
                     <div class="utleft">
-                        <img src="src/boy.svg" alt="profile picture">
+                        <img src="src/miners pp.svg" alt="profile picture">
                         <div class="ut">
                             <div class="utp">Muhammed Isah AbdulKadir</div>
                             <div class="utpn">+234 803 566 6779</div>
@@ -195,6 +201,65 @@
                     <div class="utb">
                         <div class="eminer">Edit Miner</div>
                         <div class="deletem">Delete Miner</div>
+                    </div>
+                </div>
+                <div class="profileinfo">
+                    <div class="profileinfoleft">
+                        <div class="personalinfo">
+                            <div class="piheading">Personal Information</div>
+                            <div class="pi">
+                                <div class="profileclass">Full Name</div>
+                                <div class="profiledetails">Muhammed Isah AbdulKadir</div>
+                            </div>
+                            <div class="pi">
+                                <div class="profileclass">Mobile Number</div>
+                                <div class="profiledetails">+234 803 566 6779</div>
+                            </div>
+                            <div class="pi">
+                                <div class="profileclass">State</div>
+                                <div class="profieldetails">Niger</div>
+                            </div>
+                            <div class="pi">
+                                <div class="profileclass">Local Government</div>
+                                <div class="profiledetails">Suleja/tafa</div>
+                            </div>
+                            <div class="pi">
+                                <div class="profileclass">Ward</div>
+                                <div class="profiledetails">Tundun Wada South</div>
+                            </div>
+                        </div>
+                        <div class="pacess">
+                            <div class="piheading">Sign Up Access</div>
+                            <div class="pi">
+                                <div class="profileclass">Identification Number</div>
+                                <div class="profiledetails">CH-65432345</div>
+                            </div>
+                            <div class="pi">
+                                <div class="profileclass">Password</div>
+                                <div class="profiledetails">8949-0oi</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profileinforight">
+                        <div class="pwork">
+                            <div class="piheading">Work</div>
+                            <div class="pi">
+                                <div class="profileclass">Company</div>
+                                <div class="profiledetails">Smith_Rowe Rashford Geology & Miners</div>
+                            </div>
+                            <div class="pi">
+                                <div class="profileclass">Experience</div>
+                                <div class="profieldetails">6 Years</div>
+                            </div>
+                            <div class="pi">
+                                <div class="profileclass">Guarantor</div>
+                                <div class="profiledetails">Musa Iliyasu</div>
+                            </div>
+                            <div class="pi">
+                                <div class="profileclass">Guarantor number</div>
+                                <div class="profiledetails">08183969048</div>
+                            </div>
+                            <div class="pi"><img src="src/id card.svg" alt="" class="id"></div>
                     </div>
                 </div>
             </div>
